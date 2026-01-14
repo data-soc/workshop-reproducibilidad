@@ -1,7 +1,7 @@
 ---
 format:
   revealjs:
-    theme: taller-ciae.scss
+    theme: workshop.scss
     transition: slide
     transition-speed: slow
     slide-number: true
@@ -14,7 +14,7 @@ editor: source
 <span style="font-size:60px; color:white; font-weight:bold;">Herramientas computacionales para la investigación social reproducible</span>  
 
 
-**Talleres de Formación Interna - CIAE, jueves 02 de octubre de 2025**
+**Workshop: Universidad de Concepción, martes 20 de enero de 2026**
 
 <hr>
 
