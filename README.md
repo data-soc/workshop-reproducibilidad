@@ -2,7 +2,7 @@
 
 ## Descripción general
 
-Actualmente, la gran disponibilidad de datos y la demanda de información hacen necesario contar con herramientas de análisis y de reporte de resultados que hagan el trabajo más eficiente, transparente y colaborativo. Este curso introduce una serie de herramientas computacionales especializadas en escritura, análisis de datos y versionamiento, que facilitan y automatizan la generación de reportes finales de resultados de investigación. Estas herramientas de ciencia de datos comprenden un entorno de edición (VSC), escritura abierta (Markdown), versionamiento (Git/Github), publicación de resultados (Quarto) y automatización de referencias (Zotero). El uso de estos recursos computacionales se utiliza cada vez más a nivel nacional e internacional y permite un alto estándar de eficiencia y calidad.
+Actualmente, la gran disponibilidad de datos y la demanda de información hacen necesario contar con herramientas de análisis y reporte de resultados que hagan el trabajo más eficiente, transparente y colaborativo. Este curso introduce una serie de herramientas computacionales especializadas en escritura, análisis de datos y versionamiento, que facilitan y automatizan la generación de reportes finales de resultados de investigación. Estas herramientas de ciencia de datos comprenden un entorno de edición (VSC), escritura abierta (Markdown), versionamiento (Git/Github), publicación de resultados (Quarto) y automatización de referencias (Zotero/BibTex/BetterBibTex). El uso de estos recursos computacionales se incrementa cada vez más a nivel nacional e internacional y permite un alto estándar de eficiencia y calidad.
 
 ## Objetivo general
 
@@ -13,7 +13,7 @@ Introducir el uso de herramientas computacionales (VSC, Git/GitHub, Quarto, Zote
 - Comprender los fundamentos de la reproducibilidad en la investigación.
 - Manejar software para la generación de documentos dinámicos y presentaciones con Quarto.
 - Aplicar técnicas de control de versiones con Git y GitHub para el trabajo colaborativo.
-- Utilizar herramientas para la automatización de referencias bibliográficas.
+- Utilizar herramientas para automatizar referencias bibliográficas.
 
 ## Contenidos 
 
@@ -47,6 +47,6 @@ Introducir el uso de herramientas computacionales (VSC, Git/GitHub, Quarto, Zote
 
 ## Metodología 
 
-- La metodología combina sesiones expositivas con ejercicios prácticos utilizando las herramientas presentadas en el curso.
-- Se fomenta el aprendizaje aplicado a problemas de análisis de datos reales, con bases de datos del área social.
-- Los materiales de clase (scripts comentados, bases de datos de ejemplo, presentaciones) estarán disponibles para todos los/as asistentes en repositorios abiertos.
+- La metodología combina sesiones expositivas con ejercicios prácticos que utilizan las herramientas presentadas en el curso.
+- Se fomenta el aprendizaje aplicado a problemas de análisis de datos reales, utilizando bases de datos del área social.
+- Los materiales de clase (scripts comentados, bases de datos de ejemplo, presentaciones) estarán disponibles para todos los/as asistentes en un repositorio abierto.
