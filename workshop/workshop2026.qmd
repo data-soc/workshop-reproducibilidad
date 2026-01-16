@@ -9,31 +9,27 @@ format:
 editor: source
 ---
 
-# {background-color="grey"}
+# {background-color="#861313"}
 
-<span style="font-size:60px; color:white; font-weight:bold;">Herramientas computacionales para la investigación social reproducible</span>  
+<span style="font-size:60px; color:white; font-weight:bold;">Workshop: Herramientas computacionales para la investigación social reproducible</span>  
 
 
-**Workshop: Universidad de Concepción, martes 20 de enero de 2026**
+**Universidad de Concepción, martes 20 de enero de 2026**
 
 <hr>
 
 ::: {.columns .v-center-container}
 ::: {.column width="60%"}
 
-![](images/lisa.png){width="70%"}
+![](images/datasoc.png){width="70%"}
 
-Laboratorio de Investigación Social Abierta 
-
-COES
-
-[lisacoes.com](https://lisacoes.com/)
+DATASOC: Ciencia de Datos Sociales 
 
 :::{=html}
 <div style="display: inline-flex; align-items: center; gap: 6px; line-height: 1;">
   <img src="images/octocat.svg" 
        alt="GitHub" style="width:36px; height:36px; vertical-align: middle;">
-  <a href="https://github.com/lisa-coes/taller-vsc-github/taller-ciae" target="_blank" style="vertical-align: middle; font-size: 1em;">
+  <a href="https://github.com/data-soc/workshop-reproducibilidad" target="_blank" style="vertical-align: middle; font-size: 1em;">
     Repositorio de este taller
   </a>
 </div>
@@ -45,14 +41,9 @@ COES
 
 **Juan Carlos Castillo**
 
-**Kevin Carrasco**
-
-**René Canales**
-
-**Katherine Aravena**
-
 **Tomás Urzúa**
 
+Departamento de Sociología, Universidad de Chile
 
 :::
 :::
@@ -72,7 +63,7 @@ COES
 ::: {.columns .v-center-container}
 ::: {.column width="40%"}
 
-![](images/logo-lisa.png)
+![](images/datasoc.png)
 
 
 
@@ -80,63 +71,20 @@ COES
 :::
 ::: {.column width="60%"}
 
-El [Laboratorio de Investigación Social Abierta (LISA)]{.red} tiene por objetivo ofrecer herramientas y orientaciones para la apertura científica de las distintas etapas de los proyectos de investigación en ciencias sociales.
+[DATASOC]{.red} tiene por objetivo ser un centro especializado en el trabajo con datos sociales...
 
 :::
 :::
 
-<hr>
-[[lisacoes.com](https://lisacoes.com/)]{.content-box-red .center-container}
-
-## Nuestro equipo
-
-:::{=html}
-
-<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; justify-items: center; align-items: center;">
-
-<div style="text-align: center;">
-  <img src="images/jc.png" style="width:200px; height:200px; border-radius:50%; object-fit:cover;" />
-  <div>Juan Carlos Castillo</div>
-</div>
-
-<div style="text-align: center;">
-  <img src="images/kevin.png" style="width:200px; height:200px; border-radius:50%; object-fit:cover;" />
-  <div>Kevin Carrasco</div>
-</div>
-
-</div>
-:::
-
-:::{=html}
-
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; justify-items: center; align-items: center;">
-
-<div style="text-align: center;">
-  <img src="images/katherine.png" style="width:200px; height:200px; border-radius:50%; object-fit:cover;" />
-  <div>Katherine Aravena</div>
-</div>
-
-<div style="text-align: center;">
-  <img src="images/rene.png" style="width:200px; height:200px; border-radius:50%; object-fit:cover;" />
-  <div>René Canales</div>
-</div>
-
-<div style="text-align: center;">
-  <img src="images/tomas.png" style="width:200px; height:200px; border-radius:50%; object-fit:cover;" />
-  <div>Tomás Urzúa</div>
-</div>
-
-</div>
-
-:::
 
 
 
+{{< include modulo-openscience.qmd >}}
 
-{{< include modulo1.qmd >}}
+{{< include modulo-vsc.qmd >}}
 
-{{< include modulo2.qmd >}}
+{{< include modulo-quarto.qmd >}}
 
-{{< include modulo3.qmd >}}
+{{< include modulo-github.qmd >}}
 
-{{< include modulo4.qmd >}}
+{{< include modulo-zotero.qmd >}}
