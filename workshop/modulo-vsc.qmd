@@ -174,7 +174,7 @@ body-classes: kathy   # <- aísla estilos SOLO para este QMD
 <br>
 
 <p align="right">
-  <img src="images/lisa.png" width="15%">
+  <img src="images/datasoc.png" width="15%">
 </p>
 <br>
 <br>
@@ -183,22 +183,16 @@ body-classes: kathy   # <- aísla estilos SOLO para este QMD
 <br>
 <hr>
 
-
-Katherine Aravena Herrera 
-
-
 # Introducción a Visual Studio Code {.cover-title}
 
-## Objetivo y plan {.align-top}
+## Objetivo {.align-top}
 
-::: columns
-::: column
-::: {.objective-card}
-**Objetivo:** Comprender la _interfaz_ de VS Code y ejecutar un **mini flujo** con carpeta, archivo, terminal y atajos.
-:::
+::: {.objective-card .font-size-2em}
+Comprender la _interfaz_ de VS Code y ejecutar un **mini flujo** con carpeta, archivo, terminal y atajos.
 :::
 
-::: column
+<br>
+
 ::: {.nonincremental}
 1. ¿Qué es VS Code?
 2. Interfaz general
@@ -207,8 +201,6 @@ Katherine Aravena Herrera
 5. Personalización rápida
 6. Enfoque en el editor
 7. Cierre
-:::
-:::
 :::
 
 ## ¿Qué es VS Code? {.align-top}
