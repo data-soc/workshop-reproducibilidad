@@ -9,19 +9,19 @@ format:
 editor: source
 ---
 
-# {background-color="#861313"}
+# {background-color="#a81014"}
 
 <span style="font-size:60px; color:white; font-weight:bold;">Herramientas computacionales para la investigación social reproducible</span>  
 
 
-**Universidad de Concepción, martes 20 de enero de 2026**
+**Workshop Universidad de Concepción, martes 20 de enero de 2026**
 
 <hr>
 
 ::: {.columns .v-center-container}
 ::: {.column width="40%"}
 
-![](images/datasoc.png){width="70%"}
+![](images/datasoc_red1.png){width="70%"}
 
 
 

@@ -10,6 +10,13 @@ editor: source
 body-classes: kathy   # <- aísla estilos SOLO para este QMD
 ---
 
+
+
+
+
+
+
+
 <!-- ===== CSS LOCAL Y AISLADO A ESTE QMD ===== -->
 <style>
 .reveal { font-size: 34px; line-height: 1.32; color:#111827; }
@@ -108,7 +115,7 @@ body-classes: kathy   # <- aísla estilos SOLO para este QMD
 
 /* ===== Centrar los H2 de cada slide (título principal) ===== */
 .kathy .reveal .slides section > h2:first-child{
-  text-align: center;
+  text-align: left;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -116,7 +123,7 @@ body-classes: kathy   # <- aísla estilos SOLO para este QMD
 
 /* Si usas .align-top, sigue arriba pero centrado */
 .kathy .reveal .slides section.align-top > h2:first-child{
-  text-align: center;
+  text-align: left;
 }
 
 .kathy .icon-map.icon-xs{
