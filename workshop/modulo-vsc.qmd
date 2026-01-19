@@ -78,7 +78,52 @@ El objetivo de este módulo es conocer y entender el funcionamiento de la _inter
 - Cada carpeta puede contener múltiples archivos y subcarpetas.
 - Puedes abrir una carpeta existente o crear una nueva desde VS Code.
 - Los archivos pueden ser de cualquier tipo: código fuente, texto plano, datos, etc.
-- La estructura de carpetas y archivos es clave para la organización y reproducibilidad.
+- La estructura de carpetas y archivos es clave para la organización y reproducibilidad (ej: protocolo [IPO](https://lisacoes.com/protocolos/a-ipo-rep/)).
+:::
+
+## ![](images/extensiones.png) Extensiones
+
+:::{.incremental}
+- Las extensiones son **complementos** que agregan funcionalidades a VS Code.
+- Existen extensiones para diferentes lenguajes de programación, herramientas y flujos de trabajo.
+- Puedes buscar e instalar extensiones desde el **Marketplace** de VS Code.
+:::
+
+## Instalación de extensiones {.align-top}
+
+::: {.columns}
+::: {.column width="20%"}
+![](images/extensiones.png){width="80%"}
+:::
+
+::: {.column width="75%"}
+::: {.incremental}
+
+- Abre la vista de extensiones con el ícono de cuadrados en la barra lateral o con el atajo `Ctrl+Shift+X`.
+
+- Busca las extensiones por nombre (ej: "Quarto", "R", "Zotero").
+
+- Haz clic en "Install" para instalar cada extensión.
+
+- Reinicia VS Code si es necesario para activar las extensiones.
+
+:::
+:::
 :::
 
 
+## Extensiones a instalar
+
+![](images/markdown-all-in-one.png)
+
+## Extensiones a instalar
+
+![](images/quarto-extension.png)
+
+## Extensiones a instalar
+
+![](images/R-extension.png)
+
+## Extensiones a instalar
+
+![](images/zotero--picker.png)

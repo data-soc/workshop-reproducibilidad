@@ -45,6 +45,11 @@ La ciencia abierta es el conjunto de prácticas, políticas e infraestructuras q
 
 - En términos simples: obtener los mismos resultados de una investigación utilizando los mismos datos.
 
+## Reproducibilidad y análisis
+
+![](images/reproducibility-analysis.png){fig-align="center"}
+
+
 ## ¿Qué porcentaje de los estudios publicados son reproducibles?
 
 ::: {.columns}
