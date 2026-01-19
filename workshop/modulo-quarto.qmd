@@ -19,10 +19,6 @@ editor: source
 </p>
 
 
-Tomás Urzúa
-
-
-
 {{< include m3-docs.qmd >}}
 
 {{< include m3-pres.qmd >}}

@@ -102,7 +102,7 @@ Texto sin '#'
 - Idealmente para comparar
 :::
 
-## Diseño de la presentación {data-background-color="#1473d1"}
+## Diseño de la presentación
 
 - [Las presentaciones (y todos los documentos .qmd) son **completamente personalizables**]{style="color: #212529;"}
 

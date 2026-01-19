@@ -18,17 +18,13 @@ editor: source
 </p>
 
 
-Tomás Urzúa
-
 ## Contenidos 
 
-:::{.incremental}
+:::{.incremental style="font-size:55px; font-weight:bold;"}
 
--  Gestores de referencias
-
-- Citas en texto plano
-
-- Automatización de referencias bibliográficas
+- 1.- Gestores de referencias
+- 2.- Citas en texto plano
+- 3.- Automatización de referencias bibliográficas
 
 :::
 
@@ -139,7 +135,7 @@ Cuando hay una referencia presente en la página, presiona el botón del conecto
 
 ## Puntos claves de la citación
 
-La forma de citar es a través de la **citation key** que identifica la referencia, que es la que aparece al principio de cada un @ como prefijo. Ej:
+La forma de citar es a través de la **citation key** que identifica la referencia, añadiendo un @ como prefijo. Ej:
 
 ```
 - Tal como señala [@sabbagh_dimension_2003], los principales resultados ...

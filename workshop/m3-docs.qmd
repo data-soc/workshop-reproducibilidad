@@ -9,14 +9,28 @@ format:
 editor: source  
 ---
 
-## Algunas limitaciones de escritura con procesador de texto tradicional
+## Contenidos
+
+:::{.incremental style="font-size:55px; font-weight:bold;"}
+
+- 1.- Texto plano
+
+- 2.- Documentos Quarto
+
+- 3.- Presentaciones en Quarto
+
+:::
+
+##
+
+### Limitaciones de procesadores de texto tradicionales
 
 ::: {.columns}
 ::: {.column width="80%"}
 
 - Barrera de **pago/licencia** para acceder a contenidos (propiedad)
 
-- Difícil **versionamiento** y llevar registro de quién hizo qué cambio, barrera a la reproducibilidad y colaboración 
+- Dificulta **versionamiento** y llevar registro de quién hizo qué cambio; barrera a la reproducibilidad y colaboración 
 
 - No permite un documento enteramente **reproducible** que combine texto y código de análisis (en caso de utilizarlo)
 
@@ -35,8 +49,6 @@ editor: source
 
 
 - Independiente de programa comercial
-
-- Independiente de plataformas específicas
 
 - Permite combinar texto y análisis en un mismo documento
 
@@ -104,6 +116,7 @@ editor: source
 
 ## Características Principales
 
+:::{.incremental}
 -   **Multiplataforma**
 
 -   **Basado en Markdown** 
@@ -117,12 +130,11 @@ editor: source
 -   **Integración entornos de desarrollo** (RStudio, VSC, etc)
 
 -   **Extensible** 
-
----
+:::
 
 ## Características principales
 
-- Lenguaje que combina código (R) y texto (Markdown): Al igual que RMarkdown (.Rmd), Quarto permite combinar texto plano markdown y código de análisis R.
+- Lenguaje que combina código (R) y texto (Markdown): Al igual que RMarkdown (.Rmd), Quarto permite **combinar texto plano markdown** y **código** de análisis R.
 
 - Provee una serie de herramientas para generar documentos dinámicos y publicarlos
 

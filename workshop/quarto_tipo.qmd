@@ -1,16 +1,11 @@
 ---
 title: "Documento Quarto"
 author:
-    names:
-        - Juan Carlos Castillo
-        - Kevin Carrasco
-        - Tomás Urzúa
-        - Katherine Aravena
-        - René Canales
-affiliation: Laboratorio de Investigación Social Abierta
+  - Juan Carlos Castillo
+  - Tomás Urzúa
 date: today
 format: html
-lang: es
+lang: en
 toc: true
 ---
 
@@ -50,11 +45,8 @@ title: "Documento Quarto"           # Título del documento
 author:                            # Autores (estructura anidada)
     names:
         - Juan Carlos Castillo
-        - Kevin Carrasco
         - Tomás Urzúa
-        - Katherine Aravena
-        - René Canales
-affiliation: Laboratorio de Investigación Social Abierta
+affiliation: DATASOC
 date: today                        # Fecha automática
 format: html                       # Formato de salida
 lang: es                          # Idioma del documento
@@ -150,10 +142,6 @@ ggplot(datos_ejemplo, aes(x = valor_x, y = valor_y, color = categoria)) +
   scale_color_viridis_d(option = "plasma") +
   scale_size_continuous(range = c(1, 4))
 ```
-
-# ¿Tienes dudas? ¡Contáctanos!
-
-[Contacto Laboratorio de Investigación Social Abierta (LISA)](lisa-coes.com) 
 
 Otros links de interés:
 - Github Education: (https://github.com/education?locale=es-419)
