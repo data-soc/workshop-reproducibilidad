@@ -138,7 +138,7 @@ editor: source
 
 - Provee una serie de herramientas para generar documentos dinámicos y publicarlos
 
-## Instalación en VSC
+## Instalación
 
 :::: {.columns}
 ::: {.column width="60%"}
@@ -165,7 +165,7 @@ editor: source
 - Encabezado YAML:
   ```yaml
   title: "Mi documento"
-  author: "Juan Castillo"
+  author: "Eugenio Chandía"
   date: today
   format: html
   ```
@@ -249,8 +249,9 @@ editor: source
 
 ## Extensiones
 
-- Integración con R
+- Integración con R -> documento dinámico
 - Referencias bibliográficas
-- Renderizado a pdf, word
-- Sitios web
+- Renderizado a pdf, word y otros formatos de salida -> Draft JUSMER
+- [Sitios web](https://lisacoes.com/)
+- [Aplicaciones](https://ocs-coes.shinyapps.io/ocs-viselsoc/)
 - Presentaciones
