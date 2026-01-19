@@ -10,7 +10,7 @@ editor: source
 ---
 
 
-# Parte 2: Presentaciones en Quarto 
+# Presentaciones en Quarto {background-color="#a81014"}
 
 ## ¿Por qué usar Quarto para presentaciones?
 
@@ -130,6 +130,10 @@ Cambiar el color de las letras de una slide, del background y por último jugar 
 
 ## Recursos para seguir aprendiendo
 
+- [Creación de documentos científicos con Quarto](https://aprendeconalf.es/quarto-textos-cientificos/)
+
+- [Tutorial Quarto for academics](https://youtu.be/EbAAmrB0luA)
+
 - [Presentaciones Quarto](https://quarto.org/docs/presentations/) y más documentación 
   
 - [Videos explicativos](https://www.youtube.com/watch?v=EbAAmrB0luA) esenciales para aprender viendo
@@ -137,4 +141,3 @@ Cambiar el color de las letras de una slide, del background y por último jugar 
 - [Foro de Posit](https://forum.posit.co/) para mantenerse actualizado y resolver dudas
 
 - [Página LISA](https://lisa-coes.netlify.app/) y más sobre Ciencia Abierta
-

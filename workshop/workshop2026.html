@@ -6,8 +6,8 @@
 <script src="workshop2026_files/libs/quarto-html/tippy.umd.min.js"></script>
 <link href="workshop2026_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="workshop2026_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="workshop2026_files/libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.7.33">
+<link href="workshop2026_files/libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.25">
 
   <title>workshop2026</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -94,7 +94,7 @@
     code span.vs { color: #20794d; } /* VerbatimString */
     code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
-  <link rel="stylesheet" href="workshop2026_files/libs/revealjs/dist/theme/quarto-7f15bcdd782895131c68c25f1b28d3d1.css">
+  <link rel="stylesheet" href="workshop2026_files/libs/revealjs/dist/theme/quarto-fbaeb38043eb5a93ff4bbba059481ff0.css">
   <link href="workshop2026_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="workshop2026_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="workshop2026_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -260,9 +260,9 @@
 </ul>
 </section>
 <section id="reproducibilidad-y-análisis" class="slide level2">
-<h2>reproducibilidad y análisis</h2>
+<h2>Reproducibilidad y análisis</h2>
 
-<img data-src="images/reproducibilidad-analisis.png" class="quarto-figure quarto-figure-center r-stretch" style="width:70.0%"></section>
+<img data-src="images/reproducibility-analysis.png" class="quarto-figure quarto-figure-center r-stretch"></section>
 <section id="qué-porcentaje-de-los-estudios-publicados-son-reproducibles" class="slide level2">
 <h2>¿Qué porcentaje de los estudios publicados son reproducibles?</h2>
 <div class="columns">
@@ -369,13 +369,9 @@
 <section id="extensiones" class="slide level2">
 <h2><img data-src="images/extensiones.png"> Extensiones</h2>
 <ul>
-<li><p>Las extensiones son <strong>complementos</strong> que agregan funcionalidades a VS Code.</p></li>
-<li><p>Existen extensiones para diferentes lenguajes de programación, herramientas y flujos de trabajo.</p></li>
-<li><p>Ejemplos útiles para investigación reproducible:</p>
-<p><span class="small">- <strong>Quarto</strong>: soporte para documentos y presentaciones dinámicas.</span></p>
-<p><span class="small">- <strong>R</strong>: soporte para desarrollo en R.</span></p>
-<p><span class="small">- <strong>Zotero</strong>: gestión de referencias bibliográficas.</span></p></li>
-<li><p>Puedes buscar e instalar extensiones desde el <strong>Marketplace</strong> de VS Code.</p></li>
+<li class="fragment">Las extensiones son <strong>complementos</strong> que agregan funcionalidades a VS Code.</li>
+<li class="fragment">Existen extensiones para diferentes lenguajes de programación, herramientas y flujos de trabajo.</li>
+<li class="fragment">Puedes buscar e instalar extensiones desde el <strong>Marketplace</strong> de VS Code.</li>
 </ul>
 </section>
 <section id="instalación-de-extensiones" class="slide level2 align-top">
@@ -403,17 +399,18 @@
 <section id="extensiones-a-instalar-2" class="slide level2">
 <h2>Extensiones a instalar</h2>
 
-<img data-src="images/R-extension.png" class="r-stretch"></section></section>
+<img data-src="images/R-extension.png" class="r-stretch"></section>
+<section id="extensiones-a-instalar-3" class="slide level2">
+<h2>Extensiones a instalar</h2>
+
+<img data-src="images/zotero--picker.png" class="r-stretch"></section></section>
 <section>
-<section id="section-4" class="title-slide slide level1 white center" data-background-color="black">
-<h1></h1>
-<p><br></p>
+<section id="módulo-3---texto-plano-y-documentos-quarto" class="title-slide slide level1 white center" data-background-color="#a81014" style="font-size:30px; display:flex; align-items:left; justify-content:center; height:70vh; font-weight:700;">
+<h1>Módulo 3 - Texto plano y documentos Quarto</h1>
+<p><br> <br></p>
 <p align="right">
-<img src="images/datasoc.png" width="15%">
+<img src="images/datasoc_red1.png" width="15%">
 </p>
-<p><br> <br> <span style="font-size:60px; color:white; font-weight:bold;">Módulo 3: Documentos y presentaciones en Quarto</span></p>
-<br>
-<hr>
 <p>Tomás Urzúa</p>
 </section>
 <section id="algunas-limitaciones-de-escritura-con-procesador-de-texto-tradicional" class="slide level2">
@@ -445,10 +442,10 @@
 </div></div>
 </section></section>
 <section>
-<section id="parte-1-documentos-en-quarto" class="title-slide slide level1 center">
-<h1>Parte 1: Documentos en Quarto</h1>
+<section id="texto-plano" class="title-slide slide level1 center" data-background-color="#a81014">
+<h1>Texto plano</h1>
 
-<img data-src="images/quarto-logo.png" class="r-stretch"></section>
+</section>
 <section id="qué-es-markdown" class="slide level2">
 <h2>¿Qué es markdown?</h2>
 <ul>
@@ -458,14 +455,38 @@
 <li><p>Filosofía: foco en contenido primero, el formato después.</p></li>
 </ul>
 </section>
+<section id="base-de-escritura-markdown" class="slide level2">
+<h2>Base de escritura: Markdown</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<ul>
+<li>Encabezados: <code>#</code>, <code>##</code>, <code>###</code></li>
+<li>Listas:
+<ul>
+<li>Viñetas: <code>-</code> o <code>*</code></li>
+<li>Numeradas: <code>1.</code>, <code>2.</code></li>
+</ul></li>
+<li>Énfasis: <code>*cursiva*</code>, <code>**negrita**</code></li>
+<li>Código en línea: <code>`código`</code></li>
+<li>Enlaces: <code>[texto](url)</code></li>
+</ul>
+</div><div class="column" style="width:40%;">
+<p><img data-src="images/markdown-syntax.png"></p>
+</div></div>
+</section>
 <section id="qué-es-quarto" class="slide level2">
 <h2>¿Qué es Quarto?</h2>
+<div class="columns">
+<div class="column" style="width:70%;">
 <ul>
 <li><p><a href="https://quarto.org/">Quarto</a> es un sistema moderno de creación de documentos dinámicos, informes, presentaciones, libros, sitios web y más, a partir de archivos de texto plano y por medio del conversor universal de documentos <a href="https://pandoc.org/">Pandoc</a>.</p></li>
 <li><p>Evolución de los sistemas de autoría como Jupyter, R Markdown, todo dentro del mismo documento.</p></li>
 </ul>
+</div><div class="column" style="width:30%;">
+<p><img data-src="images/quarto-logo.png"></p>
+</div></div>
 </section>
-<section id="section-5" class="slide level2">
+<section id="section-4" class="slide level2">
 <h2></h2>
 
 <img data-src="images/quarto-press.png" class="r-stretch"></section>
@@ -496,22 +517,27 @@
 <li><p>Requisitos: Quarto CLI y Visual Studio Code (VSC)</p></li>
 <li><p>Instalación de Quarto: <a href="https://quarto.org/docs/get-started/">https://quarto.org/docs/get-started/</a></p></li>
 <li><p>Verificación de instalación:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href=""></a><span class="ex">quarto</span> check</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href=""></a><span class="ex">quarto</span> check</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
 <li><p>Extensión “Quarto” para Visual Studio Code</p></li>
 </ul>
 </div><div class="column" style="width:40%;">
 <p><img data-src="images/vscode-extension.png" style="display:block; margin-left:auto; margin-right:0;;width:50.0%"></p>
 </div></div>
+</section></section>
+<section>
+<section id="documentos-en-quarto" class="title-slide slide level1 center" data-background-color="#a81014">
+<h1>Documentos en Quarto</h1>
+
 </section>
 <section id="estructura-de-un-documento" class="slide level2">
 <h2>Estructura de un documento</h2>
 <ul>
 <li><p>Archivo <code>.qmd</code></p></li>
 <li><p>Encabezado YAML:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb2-1"><a href=""></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"Mi documento"</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb2-1"><a href=""></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"Mi documento"</span></span>
 <span id="cb2-2"><a href=""></a><span class="fu">author</span><span class="kw">:</span><span class="at"> </span><span class="st">"Juan Castillo"</span></span>
 <span id="cb2-3"><a href=""></a><span class="fu">date</span><span class="kw">:</span><span class="at"> today</span></span>
-<span id="cb2-4"><a href=""></a><span class="fu">format</span><span class="kw">:</span><span class="at"> html</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<span id="cb2-4"><a href=""></a><span class="fu">format</span><span class="kw">:</span><span class="at"> html</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
 <li><p>Cuerpo:</p>
 <ul>
 <li>Markdown para secciones, énfasis, listas, etc.</li>
@@ -522,7 +548,7 @@
 </section>
 <section id="ejemplo" class="slide level2">
 <h2>Ejemplo</h2>
-<div class="sourceCode" id="annotated-cell-1"><pre class="sourceCode numberSource code-annotation-code number-lines code-with-copy"><code class="sourceCode"><span id="annotated-cell-1-1"><a href="#annotated-cell-1-1"></a>---</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="annotated-cell-1"><pre class="sourceCode numberSource code-annotation-code number-lines code-with-copy"><code class="sourceCode"><span id="annotated-cell-1-1"><a href="#annotated-cell-1-1"></a>---</span>
 <span id="annotated-cell-1-2"><a href="#annotated-cell-1-2"></a>title: "Tutorial Quarto"</span>
 <span id="annotated-cell-1-3"><a href="#annotated-cell-1-3"></a>author: "JC"</span>
 <span id="annotated-cell-1-4"><a href="#annotated-cell-1-4"></a>date: "2025-08-01"</span>
@@ -533,7 +559,7 @@
 <span id="annotated-cell-1-9"><a href="#annotated-cell-1-9"></a># Bienvenidos a este tutorial de **Quarto**.</span>
 <span id="annotated-cell-1-10"><a href="#annotated-cell-1-10"></a></span>
 <span id="annotated-cell-1-11"><a href="#annotated-cell-1-11"></a>Quarto está especialmente diseñado para elaborar documentos</span>
-<span id="annotated-cell-1-12"><a href="#annotated-cell-1-12"></a>científicos y técnicos reproducibles</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="annotated-cell-1-12"><a href="#annotated-cell-1-12"></a>científicos y técnicos reproducibles</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <ul>
 <li>Para renderizar:
 <ul>
@@ -542,112 +568,54 @@
 </ul></li>
 </ul>
 </section>
-<section id="base-de-escritura-markdown" class="slide level2">
-<h2>Base de escritura: Markdown</h2>
-<div class="columns">
-<div class="column" style="width:60%;">
-<ul>
-<li>Encabezados: <code>#</code>, <code>##</code>, <code>###</code></li>
-<li>Listas:
-<ul>
-<li>Viñetas: <code>-</code> o <code>*</code></li>
-<li>Numeradas: <code>1.</code>, <code>2.</code></li>
-</ul></li>
-<li>Énfasis: <code>*cursiva*</code>, <code>**negrita**</code></li>
-<li>Código en línea: <code>`código`</code></li>
-<li>Enlaces: <code>[texto](url)</code></li>
-</ul>
-</div><div class="column" style="width:40%;">
-<p><img data-src="images/markdown-syntax.png"></p>
-</div></div>
-</section>
-<section id="ejemplo-1" class="slide level2">
-<h2>Ejemplo</h2>
-<div class="sourceCode" id="annotated-cell-2"><pre class="sourceCode numberSource code-annotation-code number-lines code-with-copy"><code class="sourceCode"><span id="annotated-cell-2-1"><a href="#annotated-cell-2-1"></a>---</span>
-<span id="annotated-cell-2-2"><a href="#annotated-cell-2-2"></a>title: "Tutorial Quarto"</span>
-<span id="annotated-cell-2-3"><a href="#annotated-cell-2-3"></a>author: "JC"</span>
-<span id="annotated-cell-2-4"><a href="#annotated-cell-2-4"></a>date: "2025-08-01"</span>
-<span id="annotated-cell-2-5"><a href="#annotated-cell-2-5"></a>format: html</span>
-<span id="annotated-cell-2-6"><a href="#annotated-cell-2-6"></a>lang: es</span>
-<span id="annotated-cell-2-7"><a href="#annotated-cell-2-7"></a>---</span>
-<span id="annotated-cell-2-8"><a href="#annotated-cell-2-8"></a></span>
-<span id="annotated-cell-2-9"><a href="#annotated-cell-2-9"></a># Bienvenidos a este tutorial de **Quarto**.</span>
-<span id="annotated-cell-2-10"><a href="#annotated-cell-2-10"></a></span>
-<span id="annotated-cell-2-11"><a href="#annotated-cell-2-11"></a>Quarto está especialmente diseñado para elaborar documentos</span>
-<span id="annotated-cell-2-12"><a href="#annotated-cell-2-12"></a>científicos y técnicos reproducibles</span>
-<span id="annotated-cell-2-13"><a href="#annotated-cell-2-13"></a></span>
-<span id="annotated-cell-2-14"><a href="#annotated-cell-2-14"></a>## Este es un subtítulo</span>
-<span id="annotated-cell-2-15"><a href="#annotated-cell-2-15"></a></span>
-<span id="annotated-cell-2-16"><a href="#annotated-cell-2-16"></a>Ahora vamos a ensayar **negritas** y _cursivas_</span>
-<span id="annotated-cell-2-17"><a href="#annotated-cell-2-17"></a></span>
-<span id="annotated-cell-2-18"><a href="#annotated-cell-2-18"></a>### Y un título de tercer orden</span>
-<span id="annotated-cell-2-19"><a href="#annotated-cell-2-19"></a></span>
-<span id="annotated-cell-2-20"><a href="#annotated-cell-2-20"></a>Y una lista</span>
-<span id="annotated-cell-2-21"><a href="#annotated-cell-2-21"></a></span>
-<span id="annotated-cell-2-22"><a href="#annotated-cell-2-22"></a>- con viñetas</span>
-<span id="annotated-cell-2-23"><a href="#annotated-cell-2-23"></a>- ...</span>
-<span id="annotated-cell-2-24"><a href="#annotated-cell-2-24"></a>- ...</span>
-<span id="annotated-cell-2-25"><a href="#annotated-cell-2-25"></a></span>
-<span id="annotated-cell-2-26"><a href="#annotated-cell-2-26"></a>Y otra numerada:</span>
-<span id="annotated-cell-2-27"><a href="#annotated-cell-2-27"></a></span>
-<span id="annotated-cell-2-28"><a href="#annotated-cell-2-28"></a>1. punto 1</span>
-<span id="annotated-cell-2-29"><a href="#annotated-cell-2-29"></a>2. punto 2</span>
-<span id="annotated-cell-2-30"><a href="#annotated-cell-2-30"></a>3. ...</span>
-<span id="annotated-cell-2-31"><a href="#annotated-cell-2-31"></a></span>
-<span id="annotated-cell-2-32"><a href="#annotated-cell-2-32"></a>## Links e imágenes</span>
-<span id="annotated-cell-2-33"><a href="#annotated-cell-2-33"></a></span>
-<span id="annotated-cell-2-34"><a href="#annotated-cell-2-34"></a>[Este es un link a Github](https://github.com/)  </span>
-<span id="annotated-cell-2-35"><a href="#annotated-cell-2-35"></a></span>
-<span id="annotated-cell-2-36"><a href="#annotated-cell-2-36"></a>![Imagen online](https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Gutenberg.jpg/330px-Gutenberg.jpg)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
 <section id="personalización-visual-del-html" class="slide level2">
 <h2>Personalización visual del HTML</h2>
 <ul>
 <li><p>Temas: <code>cosmo</code>, <code>flatly</code>, <code>lux</code>, <code>darkly</code>, etc.</p></li>
 <li><p>Opciones comunes en YAML:</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb3-1"><a href=""></a><span class="fu">toc</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb3-1"><a href=""></a><span class="fu">toc</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span>
 <span id="cb3-2"><a href=""></a><span class="fu">number-sections</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span>
-<span id="cb3-3"><a href=""></a><span class="fu">code-fold</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<span id="cb3-3"><a href=""></a><span class="fu">code-fold</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
 <li><p>Personalización con CSS externo:</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb4-1"><a href=""></a><span class="fu">css</span><span class="kw">:</span><span class="at"> estilos.css</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb4-1"><a href=""></a><span class="fu">css</span><span class="kw">:</span><span class="at"> estilos.css</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
 </ul>
 </section>
-<section id="ejemplo-2" class="slide level2">
+<section id="ejemplo-1" class="slide level2">
 <h2>Ejemplo</h2>
-<div class="sourceCode" id="annotated-cell-3"><pre class="sourceCode numberSource code-annotation-code number-lines code-with-copy"><code class="sourceCode"><span id="annotated-cell-3-1"><a href="#annotated-cell-3-1"></a>---</span>
-<span id="annotated-cell-3-2"><a href="#annotated-cell-3-2"></a>title: "Tutorial Quarto"</span>
-<span id="annotated-cell-3-3"><a href="#annotated-cell-3-3"></a>author: "JC"</span>
-<span id="annotated-cell-3-4"><a href="#annotated-cell-3-4"></a>date: "2025-08-01"</span>
-<span id="annotated-cell-3-5"><a href="#annotated-cell-3-5"></a>format: html</span>
-<span id="annotated-cell-3-6"><a href="#annotated-cell-3-6"></a>lang: es</span>
-<span id="annotated-cell-3-7"><a href="#annotated-cell-3-7"></a>toc: true</span>
-<span id="annotated-cell-3-8"><a href="#annotated-cell-3-8"></a>number-sections: true</span>
-<span id="annotated-cell-3-9"><a href="#annotated-cell-3-9"></a>theme: darkly</span>
-<span id="annotated-cell-3-10"><a href="#annotated-cell-3-10"></a>css: estilos.css</span>
-<span id="annotated-cell-3-11"><a href="#annotated-cell-3-11"></a>---</span>
-<span id="annotated-cell-3-12"><a href="#annotated-cell-3-12"></a></span>
-<span id="annotated-cell-3-13"><a href="#annotated-cell-3-13"></a># Bienvenidos a este tutorial de **Quarto**.</span>
-<span id="annotated-cell-3-14"><a href="#annotated-cell-3-14"></a></span>
-<span id="annotated-cell-3-15"><a href="#annotated-cell-3-15"></a>Quarto está especialmente diseñado para elaborar documentos</span>
-<span id="annotated-cell-3-16"><a href="#annotated-cell-3-16"></a>científicos y técnicos reproducibles</span>
-<span id="annotated-cell-3-17"><a href="#annotated-cell-3-17"></a></span>
-<span id="annotated-cell-3-18"><a href="#annotated-cell-3-18"></a>## Este es un subtítulo</span>
-<span id="annotated-cell-3-19"><a href="#annotated-cell-3-19"></a></span>
-<span id="annotated-cell-3-20"><a href="#annotated-cell-3-20"></a>Ahora vamos a ensayar **negritas** y _cursivas_</span>
-<span id="annotated-cell-3-21"><a href="#annotated-cell-3-21"></a></span>
-<span id="annotated-cell-3-22"><a href="#annotated-cell-3-22"></a>### Y un título de tercer orden</span>
-<span id="annotated-cell-3-23"><a href="#annotated-cell-3-23"></a></span>
-<span id="annotated-cell-3-24"><a href="#annotated-cell-3-24"></a>Y una lista</span>
-<span id="annotated-cell-3-25"><a href="#annotated-cell-3-25"></a></span>
-<span id="annotated-cell-3-26"><a href="#annotated-cell-3-26"></a>- con viñetas</span>
-<span id="annotated-cell-3-27"><a href="#annotated-cell-3-27"></a>- ...</span>
-<span id="annotated-cell-3-28"><a href="#annotated-cell-3-28"></a>- ...</span>
-<span id="annotated-cell-3-29"><a href="#annotated-cell-3-29"></a></span>
-<span id="annotated-cell-3-30"><a href="#annotated-cell-3-30"></a>Y otra numerada:</span>
-<span id="annotated-cell-3-31"><a href="#annotated-cell-3-31"></a></span>
-<span id="annotated-cell-3-32"><a href="#annotated-cell-3-32"></a>1. punto 1</span>
-<span id="annotated-cell-3-33"><a href="#annotated-cell-3-33"></a>2. punto 2</span>
-<span id="annotated-cell-3-34"><a href="#annotated-cell-3-34"></a>3. ...</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="annotated-cell-2"><pre class="sourceCode numberSource code-annotation-code number-lines code-with-copy"><code class="sourceCode"><span id="annotated-cell-2-1"><a href="#annotated-cell-2-1"></a>---</span>
+<span id="annotated-cell-2-2"><a href="#annotated-cell-2-2"></a>title: "Tutorial Quarto"</span>
+<span id="annotated-cell-2-3"><a href="#annotated-cell-2-3"></a>author: "JC"</span>
+<span id="annotated-cell-2-4"><a href="#annotated-cell-2-4"></a>date: "2025-08-01"</span>
+<span id="annotated-cell-2-5"><a href="#annotated-cell-2-5"></a>format: html</span>
+<span id="annotated-cell-2-6"><a href="#annotated-cell-2-6"></a>lang: es</span>
+<span id="annotated-cell-2-7"><a href="#annotated-cell-2-7"></a>toc: true</span>
+<span id="annotated-cell-2-8"><a href="#annotated-cell-2-8"></a>number-sections: true</span>
+<span id="annotated-cell-2-9"><a href="#annotated-cell-2-9"></a>theme: darkly</span>
+<span id="annotated-cell-2-10"><a href="#annotated-cell-2-10"></a>css: estilos.css</span>
+<span id="annotated-cell-2-11"><a href="#annotated-cell-2-11"></a>---</span>
+<span id="annotated-cell-2-12"><a href="#annotated-cell-2-12"></a></span>
+<span id="annotated-cell-2-13"><a href="#annotated-cell-2-13"></a># Bienvenidos a este tutorial de **Quarto**.</span>
+<span id="annotated-cell-2-14"><a href="#annotated-cell-2-14"></a></span>
+<span id="annotated-cell-2-15"><a href="#annotated-cell-2-15"></a>Quarto está especialmente diseñado para elaborar documentos</span>
+<span id="annotated-cell-2-16"><a href="#annotated-cell-2-16"></a>científicos y técnicos reproducibles</span>
+<span id="annotated-cell-2-17"><a href="#annotated-cell-2-17"></a></span>
+<span id="annotated-cell-2-18"><a href="#annotated-cell-2-18"></a>## Este es un subtítulo</span>
+<span id="annotated-cell-2-19"><a href="#annotated-cell-2-19"></a></span>
+<span id="annotated-cell-2-20"><a href="#annotated-cell-2-20"></a>Ahora vamos a ensayar **negritas** y _cursivas_</span>
+<span id="annotated-cell-2-21"><a href="#annotated-cell-2-21"></a></span>
+<span id="annotated-cell-2-22"><a href="#annotated-cell-2-22"></a>### Y un título de tercer orden</span>
+<span id="annotated-cell-2-23"><a href="#annotated-cell-2-23"></a></span>
+<span id="annotated-cell-2-24"><a href="#annotated-cell-2-24"></a>Y una lista</span>
+<span id="annotated-cell-2-25"><a href="#annotated-cell-2-25"></a></span>
+<span id="annotated-cell-2-26"><a href="#annotated-cell-2-26"></a>- con viñetas</span>
+<span id="annotated-cell-2-27"><a href="#annotated-cell-2-27"></a>- ...</span>
+<span id="annotated-cell-2-28"><a href="#annotated-cell-2-28"></a>- ...</span>
+<span id="annotated-cell-2-29"><a href="#annotated-cell-2-29"></a></span>
+<span id="annotated-cell-2-30"><a href="#annotated-cell-2-30"></a>Y otra numerada:</span>
+<span id="annotated-cell-2-31"><a href="#annotated-cell-2-31"></a></span>
+<span id="annotated-cell-2-32"><a href="#annotated-cell-2-32"></a>1. punto 1</span>
+<span id="annotated-cell-2-33"><a href="#annotated-cell-2-33"></a>2. punto 2</span>
+<span id="annotated-cell-2-34"><a href="#annotated-cell-2-34"></a>3. ...</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="extensiones-1" class="slide level2">
 <h2>Extensiones</h2>
@@ -658,19 +626,10 @@
 <li>Sitios web</li>
 <li>Presentaciones</li>
 </ul>
-</section>
-<section id="recursos" class="slide level2">
-<h2>Recursos</h2>
-<ul>
-<li>Recursos para seguir aprendiendo:</li>
-<li><a href="https://quarto.org">https://quarto.org</a></li>
-<li><a href="https://aprendeconalf.es/quarto-textos-cientificos/">Creación de documentos científicos con Quarto</a></li>
-<li><a href="https://youtu.be/EbAAmrB0luA">Tutorial Quarto for academics</a></li>
-</ul>
 </section></section>
 <section>
-<section id="parte-2-presentaciones-en-quarto" class="title-slide slide level1 center">
-<h1>Parte 2: Presentaciones en Quarto</h1>
+<section id="presentaciones-en-quarto" class="title-slide slide level1 center" data-background-color="#a81014">
+<h1>Presentaciones en Quarto</h1>
 
 </section>
 <section id="por-qué-usar-quarto-para-presentaciones" class="slide level2">
@@ -690,17 +649,17 @@
 <li><p>Veamos un ejemplo con el YAML de esta presentación</p></li>
 </ul>
 </section>
-<section id="ejemplo-3" class="slide level2">
+<section id="ejemplo-2" class="slide level2">
 <h2>Ejemplo</h2>
-<div class="sourceCode" id="annotated-cell-4"><pre class="sourceCode numberSource code-annotation-code number-lines code-with-copy"><code class="sourceCode"><span id="annotated-cell-4-1"><a href="#annotated-cell-4-1"></a>---</span>
-<span id="annotated-cell-4-2"><a href="#annotated-cell-4-2"></a>format:</span>
-<span id="annotated-cell-4-3"><a href="#annotated-cell-4-3"></a>  revealjs:</span>
-<span id="annotated-cell-4-4"><a href="#annotated-cell-4-4"></a>    theme: </span>
-<span id="annotated-cell-4-5"><a href="#annotated-cell-4-5"></a>          - taller-elsoc.scss </span>
-<span id="annotated-cell-4-6"><a href="#annotated-cell-4-6"></a>    transition: slide</span>
-<span id="annotated-cell-4-7"><a href="#annotated-cell-4-7"></a>    transition-speed: slow</span>
-<span id="annotated-cell-4-8"><a href="#annotated-cell-4-8"></a>editor: source</span>
-<span id="annotated-cell-4-9"><a href="#annotated-cell-4-9"></a>---</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="annotated-cell-3"><pre class="sourceCode numberSource code-annotation-code number-lines code-with-copy"><code class="sourceCode"><span id="annotated-cell-3-1"><a href="#annotated-cell-3-1"></a>---</span>
+<span id="annotated-cell-3-2"><a href="#annotated-cell-3-2"></a>format:</span>
+<span id="annotated-cell-3-3"><a href="#annotated-cell-3-3"></a>  revealjs:</span>
+<span id="annotated-cell-3-4"><a href="#annotated-cell-3-4"></a>    theme: </span>
+<span id="annotated-cell-3-5"><a href="#annotated-cell-3-5"></a>          - taller-elsoc.scss </span>
+<span id="annotated-cell-3-6"><a href="#annotated-cell-3-6"></a>    transition: slide</span>
+<span id="annotated-cell-3-7"><a href="#annotated-cell-3-7"></a>    transition-speed: slow</span>
+<span id="annotated-cell-3-8"><a href="#annotated-cell-3-8"></a>editor: source</span>
+<span id="annotated-cell-3-9"><a href="#annotated-cell-3-9"></a>---</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <aside class="notes">
 <p>Sacar la transición y renderizar la presentación sin ella</p>
 <style type="text/css">
@@ -814,13 +773,15 @@
 <section id="recursos-para-seguir-aprendiendo" class="slide level2">
 <h2>Recursos para seguir aprendiendo</h2>
 <ul>
+<li><p><a href="https://aprendeconalf.es/quarto-textos-cientificos/">Creación de documentos científicos con Quarto</a></p></li>
+<li><p><a href="https://youtu.be/EbAAmrB0luA">Tutorial Quarto for academics</a></p></li>
 <li><p><a href="https://quarto.org/docs/presentations/">Presentaciones Quarto</a> y más documentación</p></li>
 <li><p><a href="https://www.youtube.com/watch?v=EbAAmrB0luA">Videos explicativos</a> esenciales para aprender viendo</p></li>
 <li><p><a href="https://forum.posit.co/">Foro de Posit</a> para mantenerse actualizado y resolver dudas</p></li>
 <li><p><a href="https://lisa-coes.netlify.app/">Página LISA</a> y más sobre Ciencia Abierta</p></li>
 </ul>
 </section></section>
-<section id="section-9" class="title-slide slide level1 white center" data-background-color="black">
+<section id="section-8" class="title-slide slide level1 white center" data-background-color="black">
 <h1></h1>
 <p><br></p>
 <p align="right">
@@ -837,7 +798,7 @@
 <h1>Repositorios y apertura</h1>
 
 </section>
-<section id="section-10" class="slide level2" data-background-color="black">
+<section id="section-9" class="slide level2" data-background-color="black">
 <h2></h2>
 <h3 id="la-escritura-en-texto-simple-como-markdown-o-quarto-permite-implementar-un-sistema-de-control-de-versiones-además-de-herramientas-de-respaldo-colaboración-y-comunicación">La escritura en texto simple (como Markdown o Quarto) permite implementar un sistema de control de versiones, además de herramientas de respaldo, colaboración y comunicación</h3>
 </section>
@@ -868,12 +829,12 @@
 <li><p>entorno de trabajo que favorece la ciencia abierta</p></li>
 </ul>
 </section>
-<section id="section-11" class="slide level2" data-background-color="black">
+<section id="section-10" class="slide level2" data-background-color="black">
 <h2></h2>
 <h3 id="git-no-es-un-registro-de-versiones-de-archivos-específicos-sino-de-una-carpeta-completa"><span class="red">Git no es un registro de versiones de archivos específicos, sino de una carpeta completa</span></h3>
 <h3 id="guarda-fotos-de-momentos-específicos-de-la-carpeta-y-esta-foto-se-saca-mediante-un-commit"><span class="red">Guarda <em>“fotos”</em> de momentos específicos de la carpeta, y esta foto se <em>saca</em> mediante un</span> <strong>commit</strong></h3>
 </section>
-<section id="section-12" class="slide level2">
+<section id="section-11" class="slide level2">
 <h2></h2>
 
 <img data-src="images/gitflow.jpeg" class="r-stretch"></section>
@@ -901,7 +862,7 @@
 </ul></li>
 </ul>
 </section></section>
-<section id="section-13" class="title-slide slide level1 center" data-background-color="grey">
+<section id="section-12" class="title-slide slide level1 center" data-background-color="grey">
 <h1></h1>
 <p><span style="font-size:60px; color:white; font-weight:bold;">Herramientas computacionales para la investigación social reproducible</span></p>
 <p><strong>Talleres de Formación Interna - CIAE, jueves 02 de octubre de 2025</strong></p>
@@ -926,18 +887,244 @@
 </div></div>
 </section>
 
-<section id="section-14" class="title-slide slide level1 white center" data-background-color="black">
-<h1></h1>
-<p><br></p>
+<section>
+<section id="módulo-5---automatización-de-referencias-con-zotero" class="title-slide slide level1 white center" data-background-color="#a81014" style="font-size:30px; display:flex; align-items:left; justify-content:center; height:70vh; font-weight:700;">
+<h1>Módulo 5 - Automatización de referencias con Zotero</h1>
+<p><br> <br></p>
 <p align="right">
-<img src="images/datasoc.png" width="15%">
+<img src="images/datasoc_red1.png" width="15%">
 </p>
-<p><br> <br> <span style="font-size:60px; color:white; font-weight:bold;">Módulo 5: Zotero y automatización de referencias</span></p>
-<br>
-<hr>
 <p>Tomás Urzúa</p>
+</section>
+<section id="contenidos" class="slide level2">
+<h2>Contenidos</h2>
+<ul>
+<li class="fragment"><p>Gestores de referencias</p></li>
+<li class="fragment"><p>Citas en texto plano</p></li>
+<li class="fragment"><p>Automatización de referencias bibliográficas</p></li>
+</ul>
+</section></section>
+<section>
+<section id="gestores-de-referencias" class="title-slide slide level1 center" data-background-color="#a81014">
+<h1>Gestores de referencias</h1>
 
 </section>
+<section id="referencias-un-trabajo-de-hormiga" class="slide level2">
+<h2>Referencias: un trabajo de hormiga</h2>
+<ul>
+<li><p>Todo trabajo de investigación necesita un apartado de referencias, el cual usualmente es construido a modo manual</p></li>
+<li><p>Elaborar las referencias de esta manera puede transformarse en una tarea laboriosa y, a veces, estresante</p></li>
+<li><p>Existen herramientas que pueden amenizar en gran medida este proceso</p></li>
+</ul>
+</section>
+<section id="gestores-de-referencias-1" class="slide level2">
+<h2>Gestores de referencias</h2>
+<ul>
+<li><p>Los software especializados en referencias permiten recolectar, organizar y compartir estos elementos</p></li>
+<li><p>A día de hoy, existe una gran oferta en cuanto a programas de referencias bibliográficas: Endnote, Mendeley, Refworks, Zotero</p></li>
+<li><p>De aquí en adelante trabajaremos con Zotero, software libre y de código abierto</p></li>
+</ul>
+</section>
+<section id="zotero" class="slide level2">
+<h2>Zotero</h2>
+<ul>
+<li><p>Para instalar: <a href="zotero.org">https://www.zotero.org</a></p></li>
+<li><p>Además, se recomienda instalar su extensión de <a href="https://chromewebstore.google.com/detail/zotero-connector/ekhagklcjbdpajgpjgmbionohlpdbjgc?utm_source=ext_app_menu">Google Chrome</a>, la cual permite integrar referencias con 1 solo click</p></li>
+</ul>
+</section>
+<section id="vista-general" class="slide level2">
+<h2>Vista general</h2>
+
+<img data-src="images/vista-zotero.png" class="r-stretch"></section>
+<section id="guardar-referencias" class="slide level2">
+<h2>Guardar referencias</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>1) Desde el navegador:</strong><br>
+Cuando hay una referencia presente en la página, presiona el botón del conector y la referencia se guardará automáticamente<br>
+<em>(Zotero debe estar abierto)</em>.</p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="images/conector.png" style="width:100.0%"></p>
+</div></div>
+</section>
+<section id="section-13" class="slide level2">
+<h2></h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>2): Desde Zotero: vía DOI/ISBN/ISSN</strong></p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="images/zotero-doi.png" style="width:100.0%"></p>
+</div></div>
+</section>
+<section id="section-14" class="slide level2">
+<h2></h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>2): Desde Zotero: modo manual</strong></p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="images/zotero-manual.png" style="width:100.0%"></p>
+</div></div>
+</section></section>
+<section>
+<section id="citas-en-texto-plano" class="title-slide slide level1 center" data-background-color="#a81014">
+<h1>Citas en texto plano</h1>
+
+</section>
+<section id="bibtex" class="slide level2">
+<h2>BibTex</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li><p>formato de almacenamiento de citas en texto plano (no es un programa)</p></li>
+<li><p>Un archivo Bibtex tiene extensión <strong>.bib</strong>, donde deben estar almacenadas todas las referencias citadas en el texto</p></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="images/bibtex.png"></p>
+</div></div>
+</section>
+<section id="estructura-de-referencia-en-bibtex" class="slide level2">
+<h2>Estructura de referencia en BibTex</h2>
+
+<img data-src="images/bibtex-ej.png" class="r-stretch"></section>
+<section id="archivo-bibtex-.bib" class="slide level2">
+<h2>Archivo BibTex (.bib)</h2>
+<ul>
+<li class="fragment"><p>Un archivo bibtex tiene múltiples referencias una después de la otra, el orden no es relevante.</p></li>
+<li class="fragment"><p>Cada referencia posee una serie de campos con información necesaria para poder citar</p></li>
+<li class="fragment"><p>Este formato se puede ingresar manualmente, copiar y pegar de otras fuentes, o automatizar desde software de gestión de referencias (detalles más adelante)</p></li>
+</ul>
+</section>
+<section id="estilo-de-citación-.csl" class="slide level2">
+<h2>Estilo de citación (.csl)</h2>
+<ul>
+<li class="fragment"><p>Además de las referencias en .bib, necesitamos poder dar el estilo de formato deseado a citas y bibliografía, mediante archivos <strong>csl</strong> (Citation Style Language)</p></li>
+<li class="fragment"><p>Estos estilos (en archivos .csl) se pueden bajar desde repositorios. Se recomienda el siguiente: <a href="https://www.zotero.org/styles">https://www.zotero.org/styles</a></p></li>
+</ul>
+</section>
+<section id="puntos-claves-de-la-citación" class="slide level2">
+<h2>Puntos claves de la citación</h2>
+<p>La forma de citar es a través de la <strong>citation key</strong> que identifica la referencia, que es la que aparece al principio de cada un @ como prefijo. Ej:</p>
+<pre><code>- Tal como señala [@sabbagh_dimension_2003], los principales resultados ...
+</code></pre>
+<p>Al renderizar, esto genera:</p>
+<ul>
+<li><strong>Tal como señala Sabbagh (2003), los principales resultados …</strong></li>
+</ul>
+</section>
+<section id="maneras-de-citar" class="slide level2">
+<h2>Maneras de citar</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 62%">
+<col style="width: 37%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Se escribe</th>
+<th>Renderiza</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>Como dice @sabbagh_dimension_2003</code></td>
+<td>Como dice Sabbagh (2003)</td>
+</tr>
+<tr class="even">
+<td><code>Sabbagh [-@sabbagh_dimension_2003] dice ...</code></td>
+<td>Sabbagh (2020) dice …</td>
+</tr>
+<tr class="odd">
+<td><code>Sabbagh [-@sabbagh_dimension_2003, pp.35] dice ...</code></td>
+<td>Sabbagh (2020, p.35) dice …</td>
+</tr>
+</tbody>
+</table>
+</section></section>
+<section>
+<section id="automatización-de-referencias-bibliográficas" class="title-slide slide level1 center" data-background-color="#a81014">
+<h1>Automatización de referencias bibliográficas</h1>
+
+</section>
+<section id="zotero-y-bibtex" class="slide level2">
+<h2>Zotero y BibTex</h2>
+<p>Zotero cuenta con dos utilidades claves, las cuales permiten:</p>
+<ul>
+<li class="fragment"><p>Automatizar la generación de un archivo .bib a partir de una biblioteca</p></li>
+<li class="fragment"><p>Automatizar la incorporación de referencias bibliográficas a un documento</p></li>
+</ul>
+</section>
+<section id="generación-de-archivo-.bib" class="slide level2">
+<h2>Generación de archivo .bib</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li><p>Se pueden utilizar todas las referencias de una biblioteca o seleccionar algunas de ellas</p></li>
+<li><p>Carpeta -&gt; boton derecho -&gt; export -&gt; formato Bibtex</p></li>
+<li><p>Guardar archivo .bib en carpeta del proyecto</p></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="images/export-bib.png"></p>
+</div></div>
+</section>
+<section id="betterbibtex" class="slide level2">
+<h2>BetterBibTex</h2>
+<ul>
+<li>Plug-in de Zotero que permite exportación de archivos .bib automática y sincronizada</li>
+</ul>
+<ul>
+<li class="fragment"><p>Instalación:</p>
+<ul>
+<li class="fragment"><p>Bajar archivo desde el sitio del desarrollador: <a href="https://retorque.re/zotero-better-bibtex/installation/">https://retorque.re/zotero-better-bibtex/installation/</a></p></li>
+<li class="fragment"><p>En Zotero: Tools -&gt; Plugins -&gt; Ruedita dentada -&gt; Install plugin from file</p></li>
+<li class="fragment"><p>Reiniciar Zotero</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="section-15" class="slide level2">
+<h2></h2>
+
+<img data-src="images/zotero-plugin.png" class="r-stretch"></section>
+<section id="section-16" class="slide level2">
+<h2></h2>
+
+<img data-src="images/zotero-set.png" class="r-stretch"></section>
+<section id="exportando-referencias" class="slide level2">
+<h2>Exportando referencias</h2>
+<ul>
+<li><p>Posicionarse sobre carpeta, botón derecho y <code>Export collection</code></p>
+<pre><code>- Formato: Better BibTex
+- Keep updated (sincronización automática)
+- dar ruta hacia carpeta del proyecto</code></pre></li>
+<li><p>Precaución: no carácteres especiales ni espacios en el nombre del archivo .bib</p></li>
+</ul>
+</section>
+<section id="section-17" class="slide level2">
+<h2></h2>
+
+<img data-src="images/exportbibtex.gif" class="r-stretch"></section>
+<section id="citation-key" class="slide level2">
+<h2>Citation key</h2>
+<ul>
+<li class="fragment"><p>Existen múltiples formas de organizar las claves BibTex</p></li>
+<li class="fragment"><p>Mantener un mismo formato es importante, sobre todo para trabajo colaborativo</p></li>
+<li class="fragment"><p>Se generan desde la pestaña Citation Keys de BetterBibTex</p></li>
+<li class="fragment"><p>Recomendación: <code>[auth:lower]_[shorttitle1:lower]_[year]</code></p></li>
+</ul>
+</section>
+<section id="referencias-en-documentos-quarto" class="slide level2">
+<h2>Referencias en documentos Quarto</h2>
+<ul>
+<li>Para esto, se añaden algunas especificaciones en el preámbulo del documento (YAML), por ejemplo:</li>
+</ul>
+<pre><code>---
+bibliography: referencias.bib
+csl: apa.csl
+---
+
+ Y aquí comienza el documento ...
+</code></pre>
+
+</section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <div class="footer footer-default">
@@ -1127,7 +1314,7 @@
         margin: 0.1,
 
         math: {
-          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
           config: 'TeX-AMS_HTML-full',
           tex2jax: {
             inlineMath: [['\\(','\\)']],
@@ -1201,13 +1388,14 @@
           e.clearSelection();
         }
         const getTextToCopy = function(trigger) {
-            const codeEl = trigger.previousElementSibling.cloneNode(true);
-            for (const childEl of codeEl.children) {
-              if (isCodeAnnotation(childEl)) {
-                childEl.remove();
-              }
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
             }
-            return codeEl.innerText;
+          }
+          return codeEl.innerText;
         }
         const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
           text: getTextToCopy
