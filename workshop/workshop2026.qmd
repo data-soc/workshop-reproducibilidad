@@ -14,7 +14,7 @@ editor: source
 <span style="font-size:60px; color:white; font-weight:bold;">Herramientas computacionales para la investigación social reproducible</span>  
 
 
-**Workshop Universidad de Concepción, martes 20 de enero de 2026**
+**Workshop Universidad de Concepción, viernes 6 de Marzo, 2026**
 
 <hr>
 
@@ -23,17 +23,6 @@ editor: source
 
 ![](images/datasoc_red1.png){width="70%"}
 
-
-
-:::{=html}
-<div style="display: inline-flex; align-items: center; gap: 6px; line-height: 1;">
-  <img src="images/octocat.svg" 
-       alt="GitHub" style="width:36px; height:36px; vertical-align: middle;">
-  <a href="https://github.com/data-soc/workshop-reproducibilidad" target="_blank" style="vertical-align: middle; font-size: 1em;">
-    Repositorio de este taller
-  </a>
-</div>
-:::
 
 :::
 
@@ -46,6 +35,16 @@ editor: source
 Departamento de Sociología, Universidad de Chile
 
 :::
+:::
+
+:::{=html}
+<div style="display: inline-flex; align-items: center; gap: 6px; line-height: 1;">
+  <img src="images/octocat.svg" 
+       alt="GitHub" style="width:36px; height:36px; vertical-align: middle;">
+  <a href="https://github.com/data-soc/workshop-reproducibilidad" target="_blank" style="vertical-align: middle; font-size: 1em;">
+    Github Repo
+  </a>
+</div>
 :::
 
 ##  Antes de comenzar
