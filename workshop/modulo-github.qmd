@@ -9,27 +9,19 @@ format:
 editor: source  
 ---
 
-# {background-color="black" .white}
+# Módulo 4 - Git y GitHub {background-color="#a81014" .white style="font-size:30px; display:flex; align-items:left; justify-content:center; height:70vh; font-weight:700;"}
 
+<br>
 <br>
 
 <p align="right">
-  <img src="images/datasoc.png" width="15%">
+  <img src="images/datasoc_red1.png" width="15%">
 </p>
-<br>
-<br>
-<span style="font-size:60px; color:white; font-weight:bold;">Módulo 4: Git y Github</span>
-
-<br>
-<hr>
 
 
-Juan Carlos Castillo
+# Repositorios y apertura {data-background-color="#a81014"}
 
-
-# Repositorios y apertura {data-background-color="black"}
-
-## {data-background-color="black"}
+##
 
 ### La escritura en texto simple (como Markdown o Quarto) permite implementar un sistema de control de versiones, además de herramientas de respaldo, colaboración y comunicación
 
@@ -65,9 +57,11 @@ Juan Carlos Castillo
 - entorno de trabajo que favorece la ciencia abierta
 
 
-## {data-background-color="black"}
+##
 
 ### [Git no es un registro de versiones de archivos específicos, sino de una carpeta completa]{.red}
+
+<br>
 
 ### [Guarda *"fotos"* de momentos específicos de la carpeta, y esta foto se *saca* mediante un]{.red} **commit**
 
@@ -98,50 +92,3 @@ Juan Carlos Castillo
   - no esperar muchos cambios distintos que puedan hacer perder el sentido del commit
 
 
-# {background-color="grey"}
-
-<span style="font-size:60px; color:white; font-weight:bold;">Herramientas computacionales para la investigación social reproducible</span>  
-
-
-**Talleres de Formación Interna - CIAE, jueves 02 de octubre de 2025**
-
-<hr>
-
-::: {.columns .v-center-container}
-::: {.column width="60%"}
-
-![](images/lisa.png){width="70%"}
-
-Laboratorio de Investigación Social Abierta 
-
-COES
-
-[lisacoes.com](https://lisacoes.com/)
-
-:::{=html}
-<div style="display: inline-flex; align-items: center; gap: 6px; line-height: 1;">
-  <img src="images/octocat.svg" 
-       alt="GitHub" style="width:36px; height:36px; vertical-align: middle;">
-  <a href="https://github.com/lisa-coes/taller-vsc-github/taller-ciae" target="_blank" style="vertical-align: middle; font-size: 1em;">
-    Repositorio de este taller
-  </a>
-</div>
-:::
-
-:::
-
-::: {.column width="30%"}
-
-**Juan Carlos Castillo**
-
-**Kevin Carrasco**
-
-**René Canales**
-
-**Katherine Aravena**
-
-**Tomás Urzúa**
-
-
-:::
-:::
