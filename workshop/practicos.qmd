@@ -1,0 +1,109 @@
+---
+title: "Prácticos Workshop Reproducibilidad"
+author:
+  - Juan Carlos Castillo
+  - Tomás Urzúa
+date: 2026-03-05
+number-sections: false
+format:
+  html:
+    theme:
+           - doc-html.css
+title-block-banner: true
+toc: true
+toc-location: right
+toc-depth: 2
+toc-expand: 1
+toc-title: Contenidos
+---
+
+# Módulo 5
+
+## 1.
+
+Genere un documento Quarto que posea las siguientes características:
+
+- YAML
+
+- Título
+
+- Autor
+
+- Fecha
+
+- Tabla de contenidos
+
+- Un texto breve
+
+- Un código R que visualice un gráfico
+
+- Un link adjunto en alguna parte del texto
+
+- Una imagen adjunta en el cuerpo del documento
+
+## 2.
+
+Aplique los siguientes cambios al documento:
+
+- Agregue un tema 
+
+- Modifique el estilo del cuerpo del texto siguiendo los lineamientos de RMarkdown
+
+- Cambie las opciones del chunk 
+
+- Añada indicaciones al chunk donde se genera el gráfico
+  
+## 3.
+
+Guarde el documento en su repositorio de GitHub
+
+# Módulo 6
+
+## 1.
+
+Genere una presentación en Quarto que posea las características mínimas para su funcionamiento. Para ello, debe incluir al menos 5 slides y un cuadro de texto (#) de cada uno.
+
+## 2.
+
+Aplique los siguientes cambios a la presentación:
+
+- Agregue un tema 
+
+- Modifique la transición entre slides
+
+- Incluya una imagen en una de las slides
+
+- Añada un estilo a la presentación del texto de una slide (columns, incremental, etc.)
+
+## 3. 
+
+Después de haber aplicado los cambios del punto **2.**, realice lo siguiente:
+
+- Modifique el color de fondo de una slide específica
+
+- Cambie el tamaño de la fuente del texto en solamente una slide (puede ser el texto completo o solamente una parte)
+
+- Cambie el color del texto en solamente una slide (puede ser el texto completo o solamente una parte)
+
+## 4.
+
+Guarde la presentación en su repositorio de GitHub
+
+# Módulo 7
+
+Ingrese a la biblioteca compartida creada para el workshop y cumpla las siguientes tareas:
+
+- Ya sea en su documento o presentación Quarto, agregue al menos 3 referencias bibliográficas utilizando sus respectivas citation keys
+
+- Exporte la biblioteca Zotero a un archivo .bib y adjúntelo a su repositorio de GitHub
+
+- Descargue un archivo .csl (idealmente APA 7) de su preferencia e intégrelo al repositorio
+
+- Agregue el archivo .bib y .csl en el YAML para que puedan ser leídos en su documento o presentación Quarto
+
+- Renderice y revise que las referencias bibliográficas se visualicen correctamente, al igual que la sección de referencias
+
+
+<img class="logo" src="images/datasoc_red1.png" width="153" height="102">
+
+<div style="text-align: justify">
