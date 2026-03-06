@@ -1,5 +1,9 @@
 # Workshop: Herramientas computacionales para la investigación social reproducible
 
+## Link del taller
+
+[Presentación](https://data-soc.github.io/workshop-reproducibilidad/workshop/workshop2026.html)
+
 ## Descripción general
 
 Actualmente, la gran disponibilidad de datos y la demanda de información hacen necesario contar con herramientas de análisis y reporte de resultados que hagan el trabajo más eficiente, transparente y colaborativo. Este curso introduce una serie de herramientas computacionales especializadas en escritura, análisis de datos y versionamiento, que facilitan y automatizan la generación de reportes finales de resultados de investigación. Estas herramientas de ciencia de datos comprenden un entorno de edición (VSC), escritura abierta (Markdown), versionamiento (Git/Github), publicación de resultados (Quarto) y automatización de referencias (Zotero/BibTex/BetterBibTex). El uso de estos recursos computacionales se incrementa cada vez más a nivel nacional e internacional y permite un alto estándar de eficiencia y calidad.
