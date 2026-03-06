@@ -6,8 +6,8 @@
 <script src="modulo-openscience_files/libs/quarto-html/tippy.umd.min.js"></script>
 <link href="modulo-openscience_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="modulo-openscience_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="modulo-openscience_files/libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.7.33">
+<link href="modulo-openscience_files/libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.25">
 
   <title>modulo-openscience</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -28,7 +28,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="modulo-openscience_files/libs/revealjs/dist/theme/quarto-7f15bcdd782895131c68c25f1b28d3d1.css">
+  <link rel="stylesheet" href="modulo-openscience_files/libs/revealjs/dist/theme/quarto-fbaeb38043eb5a93ff4bbba059481ff0.css">
   <link href="modulo-openscience_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="modulo-openscience_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="modulo-openscience_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -136,7 +136,7 @@
 </section>
 <section id="ciencia-abierta" class="slide level2">
 <h2>Ciencia abierta</h2>
-<div class="box-inv-4 sp-after fragment" style="font-size: 110%;">
+<div class="box-inv-4 sp-after fragment" style="font-size: 100%;">
 <p>La ciencia abierta es el conjunto de prácticas, políticas e infraestructuras que promueven la accesibilidad, transparencia, colaboración y reutilización de los procesos, datos, software, publicaciones y resultados científicos —incluida la participación pública y la rendición de cuentas— con el objetivo de aumentar la calidad, la reproducibilidad y el impacto social de la investigación.</p>
 </div>
 <p><small>UNESCO (2021). Recommendation on Open Science. UNESCO, París. https://unesdoc.unesco.org/ark:/48223/pf0000379949</small></p>
@@ -160,8 +160,9 @@
 <h2>Reproducibilidad y análisis</h2>
 
 <img data-src="images/reproducibility-analysis.png" class="quarto-figure quarto-figure-center r-stretch"></section>
-<section id="qué-porcentaje-de-los-estudios-publicados-son-reproducibles" class="slide level2">
-<h2>¿Qué porcentaje de los estudios publicados son reproducibles?</h2>
+<section id="section" class="slide level2">
+<h2></h2>
+<h3 id="qué-porcentaje-de-los-estudios-publicados-son-reproducibles">¿Qué porcentaje de los estudios publicados son reproducibles?</h3>
 <div class="columns">
 <div class="column" style="width:80%;">
 <p><img data-src="images/reproducibility_science.png"></p>
@@ -178,7 +179,7 @@
 <p>Fuente: <a href="https://www.nature.com/news/1-500-scientists-lift-the-lid-on-reproducibility-1.19970">Baker (2016) 1,500 scientists lift the lid on reproducibility - Nature</a></p>
 </div></div>
 </section>
-<section id="section" class="slide level2">
+<section id="section-1" class="slide level2">
 <h2></h2>
 <h3 id="cómo-afecta-la-reproducibilidad">¿Cómo afecta la reproducibilidad?</h3>
 <div class="columns">
@@ -391,7 +392,7 @@
         margin: 0.1,
 
         math: {
-          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
           config: 'TeX-AMS_HTML-full',
           tex2jax: {
             inlineMath: [['\\(','\\)']],
@@ -465,13 +466,14 @@
           e.clearSelection();
         }
         const getTextToCopy = function(trigger) {
-            const codeEl = trigger.previousElementSibling.cloneNode(true);
-            for (const childEl of codeEl.children) {
-              if (isCodeAnnotation(childEl)) {
-                childEl.remove();
-              }
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
             }
-            return codeEl.innerText;
+          }
+          return codeEl.innerText;
         }
         const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
           text: getTextToCopy

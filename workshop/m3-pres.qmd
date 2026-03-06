@@ -16,6 +16,7 @@ csl: bib/apa.csl
 
 ## ¿Por qué usar Quarto para presentaciones?
 
+:::{.incremental}
 - Permite controlar las versiones (Git)
   
 - Facilita la difusión (GitHub Pages)
@@ -25,6 +26,8 @@ csl: bib/apa.csl
 - Permite combinar texto y código (mantiene la naturaleza de documento dinámico)
 
 - Es compatible con otras herramientas de acceso abierto (Zotero)
+:::
+
 
 ## 
 

@@ -78,6 +78,11 @@ editor: source
 
 - Filosofía: foco en contenido primero, el formato después.
 
+## 
+### Pandoc: conversor universal de documentos
+
+![](images/workflow.png)
+
 ## Referencia clave
 
 ![](images/healy.png)
@@ -113,6 +118,8 @@ editor: source
 
   - Reproducibilidad: Cualquier persona puede ejecutar el documento y obtener los mismos resultados, siempre que tenga acceso a los datos y al código. 
 :::
+
+# Documentos en Quarto {background-color="#a81014"}
 
 ## ¿Qué es Quarto?
 
@@ -174,8 +181,6 @@ editor: source
 ![](images/vscode-extension.png){width="50%" style="display:block; margin-left:auto; margin-right:0;"}
 :::
 ::::
-
-# Documentos en Quarto {background-color="#a81014"}
 
 ## Estructura de un documento
 

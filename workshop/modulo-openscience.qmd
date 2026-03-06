@@ -21,7 +21,7 @@ editor: source
 
 ## Ciencia abierta
 
-::: {.box-inv-4 .sp-after .fragment style="font-size: 110%;"}
+::: {.box-inv-4 .sp-after .fragment style="font-size: 100%;"}
 
 La ciencia abierta es el conjunto de prácticas, políticas e infraestructuras que promueven la accesibilidad, transparencia, colaboración y reutilización de los procesos, datos, software, publicaciones y resultados científicos —incluida la participación pública y la rendición de cuentas— con el objetivo de aumentar la calidad, la reproducibilidad y el impacto social de la investigación.
 :::
@@ -97,7 +97,8 @@ Hallazgos numéricos y conclusiones sustanciales muy diversas
 :::
 
 
-## Herramientas de investigación reproducible 
+##
+### Herramientas de investigación reproducible 
 
 - Trabajo en editor de texto (ej: VSC)
 - Escritura en texto plano (Markdown)
