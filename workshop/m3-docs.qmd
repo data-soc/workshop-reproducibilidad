@@ -78,6 +78,10 @@ editor: source
 
 - Filosofía: foco en contenido primero, el formato después.
 
+## Referencia clave
+
+![](images/healy.png)
+
 ## Base de escritura: Markdown
 
 :::: {.columns}
@@ -95,6 +99,20 @@ editor: source
 ![](images/markdown-syntax.png)
 :::
 ::::
+
+## Documentos dinámicos
+
+- Son archivos que permiten **compilar texto y código en un mismo documento**. 
+
+:::{.incremental style="font-size: 35px"}
+- Ventajas:
+
+  - Eficiencia: No hay que copiar y pegar resultados de análisis, sino que todo se trabaja en un único archivo.
+
+  - Actualizable: Al cambiar los datos o el código, el documento se actualiza automáticamente al renderizarlo de nuevo.
+
+  - Reproducibilidad: Cualquier persona puede ejecutar el documento y obtener los mismos resultados, siempre que tenga acceso a los datos y al código. 
+:::
 
 ## ¿Qué es Quarto?
 
@@ -251,7 +269,7 @@ editor: source
 
 - Integración con R -> documento dinámico
 - Referencias bibliográficas
-- Renderizado a pdf, word y otros formatos de salida -> Draft JUSMER
+- Renderizado a pdf, word y otros formatos de salida
 - [Sitios web](https://lisacoes.com/)
 - [Aplicaciones](https://ocs-coes.shinyapps.io/ocs-viselsoc/)
 - Presentaciones

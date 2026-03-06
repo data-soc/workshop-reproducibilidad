@@ -209,7 +209,7 @@
 <div class="column" style="width:80%;">
 <ul>
 <li><p>Barrera de <strong>pago/licencia</strong> para acceder a contenidos (propiedad)</p></li>
-<li><p>Difícil <strong>versionamiento</strong> y llevar registro de quién hizo qué cambio, barrera a la reproducibilidad y colaboración</p></li>
+<li><p>Dificulta <strong>versionamiento</strong> y llevar registro de quién hizo qué cambio; barrera a la reproducibilidad y colaboración</p></li>
 <li><p>No permite un documento enteramente <strong>reproducible</strong> que combine texto y código de análisis (en caso de utilizarlo)</p></li>
 </ul>
 </div><div class="column" style="width:20%;">
@@ -244,6 +244,10 @@
 <li><p>Filosofía: foco en contenido primero, el formato después.</p></li>
 </ul>
 </section>
+<section id="referencia-clave" class="slide level2">
+<h2>Referencia clave</h2>
+
+<img data-src="images/healy.png" class="r-stretch"></section>
 <section id="base-de-escritura-markdown" class="slide level2">
 <h2>Base de escritura: Markdown</h2>
 <div class="columns">
@@ -262,6 +266,22 @@
 </div><div class="column" style="width:40%;">
 <p><img data-src="images/markdown-syntax.png"></p>
 </div></div>
+</section>
+<section id="documentos-dinámicos" class="slide level2">
+<h2>Documentos dinámicos</h2>
+<ul>
+<li>Son archivos que permiten <strong>compilar texto y código en un mismo documento</strong>.</li>
+</ul>
+<div style="font-size: 35px">
+<ul>
+<li class="fragment"><p>Ventajas:</p>
+<ul>
+<li class="fragment"><p>Eficiencia: No hay que copiar y pegar resultados de análisis, sino que todo se trabaja en un único archivo.</p></li>
+<li class="fragment"><p>Actualizable: Al cambiar los datos o el código, el documento se actualiza automáticamente al renderizarlo de nuevo.</p></li>
+<li class="fragment"><p>Reproducibilidad: Cualquier persona puede ejecutar el documento y obtener los mismos resultados, siempre que tenga acceso a los datos y al código.</p></li>
+</ul></li>
+</ul>
+</div>
 </section>
 <section id="qué-es-quarto" class="slide level2">
 <h2>¿Qué es Quarto?</h2>
@@ -282,13 +302,13 @@
 <section id="características-principales" class="slide level2">
 <h2>Características Principales</h2>
 <ul>
-<li><p><strong>Multiplataforma</strong></p></li>
-<li><p><strong>Basado en Markdown</strong></p></li>
-<li><p><strong>Soporte para múltiples lenguajes</strong></p></li>
-<li><p><strong>Multitud de formatos de salida</strong></p></li>
-<li><p><strong>Soporte para publicación científica</strong></p></li>
-<li><p><strong>Integración entornos de desarrollo</strong> (RStudio, VSC, etc)</p></li>
-<li><p><strong>Extensible</strong></p></li>
+<li class="fragment"><p><strong>Multiplataforma</strong></p></li>
+<li class="fragment"><p><strong>Basado en Markdown</strong></p></li>
+<li class="fragment"><p><strong>Soporte para múltiples lenguajes</strong></p></li>
+<li class="fragment"><p><strong>Multitud de formatos de salida</strong></p></li>
+<li class="fragment"><p><strong>Soporte para publicación científica</strong></p></li>
+<li class="fragment"><p><strong>Integración entornos de desarrollo</strong> (RStudio, VSC, etc)</p></li>
+<li class="fragment"><p><strong>Extensible</strong></p></li>
 </ul>
 </section>
 <section id="características-principales-1" class="slide level2">
@@ -298,8 +318,8 @@
 <li><p>Provee una serie de herramientas para generar documentos dinámicos y publicarlos</p></li>
 </ul>
 </section>
-<section id="instalación-en-vsc" class="slide level2">
-<h2>Instalación en VSC</h2>
+<section id="instalación" class="slide level2">
+<h2>Instalación</h2>
 <div class="columns">
 <div class="column" style="width:60%;">
 <ul>
@@ -324,7 +344,7 @@
 <li><p>Archivo <code>.qmd</code></p></li>
 <li><p>Encabezado YAML:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb2-1"><a href=""></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"Mi documento"</span></span>
-<span id="cb2-2"><a href=""></a><span class="fu">author</span><span class="kw">:</span><span class="at"> </span><span class="st">"Juan Castillo"</span></span>
+<span id="cb2-2"><a href=""></a><span class="fu">author</span><span class="kw">:</span><span class="at"> </span><span class="st">"Eugenio Chandía"</span></span>
 <span id="cb2-3"><a href=""></a><span class="fu">date</span><span class="kw">:</span><span class="at"> today</span></span>
 <span id="cb2-4"><a href=""></a><span class="fu">format</span><span class="kw">:</span><span class="at"> html</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
 <li><p>Cuerpo:</p>
@@ -409,10 +429,11 @@
 <section id="extensiones" class="slide level2">
 <h2>Extensiones</h2>
 <ul>
-<li>Integración con R</li>
+<li>Integración con R -&gt; documento dinámico</li>
 <li>Referencias bibliográficas</li>
-<li>Renderizado a pdf, word</li>
-<li>Sitios web</li>
+<li>Renderizado a pdf, word y otros formatos de salida -&gt; Draft JUSMER</li>
+<li><a href="https://lisacoes.com/">Sitios web</a></li>
+<li><a href="https://ocs-coes.shinyapps.io/ocs-viselsoc/">Aplicaciones</a></li>
 <li>Presentaciones</li>
 </ul>
 

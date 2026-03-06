@@ -6,8 +6,8 @@
 <script src="workshop2026_files/libs/quarto-html/tippy.umd.min.js"></script>
 <link href="workshop2026_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="workshop2026_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="workshop2026_files/libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.7.33">
+<link href="workshop2026_files/libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.25">
 
   <title>workshop2026</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -93,8 +93,28 @@
     code span.va { color: #111111; } /* Variable */
     code span.vs { color: #20794d; } /* VerbatimString */
     code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
-  </style>
-  <link rel="stylesheet" href="workshop2026_files/libs/revealjs/dist/theme/quarto-7f15bcdd782895131c68c25f1b28d3d1.css">
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+      margin-bottom: 0em;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
+  <link rel="stylesheet" href="workshop2026_files/libs/revealjs/dist/theme/quarto-fbaeb38043eb5a93ff4bbba059481ff0.css">
   <link href="workshop2026_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="workshop2026_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="workshop2026_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -465,6 +485,10 @@
 <li><p>Filosofía: foco en contenido primero, el formato después.</p></li>
 </ul>
 </section>
+<section id="referencia-clave" class="slide level2">
+<h2>Referencia clave</h2>
+
+<img data-src="images/healy.png" class="r-stretch"></section>
 <section id="base-de-escritura-markdown" class="slide level2">
 <h2>Base de escritura: Markdown</h2>
 <div class="columns">
@@ -483,6 +507,22 @@
 </div><div class="column" style="width:40%;">
 <p><img data-src="images/markdown-syntax.png"></p>
 </div></div>
+</section>
+<section id="documentos-dinámicos" class="slide level2">
+<h2>Documentos dinámicos</h2>
+<ul>
+<li>Son archivos que permiten <strong>compilar texto y código en un mismo documento</strong>.</li>
+</ul>
+<div style="font-size: 35px">
+<ul>
+<li class="fragment"><p>Ventajas:</p>
+<ul>
+<li class="fragment"><p>Eficiencia: No hay que copiar y pegar resultados de análisis, sino que todo se trabaja en un único archivo.</p></li>
+<li class="fragment"><p>Actualizable: Al cambiar los datos o el código, el documento se actualiza automáticamente al renderizarlo de nuevo.</p></li>
+<li class="fragment"><p>Reproducibilidad: Cualquier persona puede ejecutar el documento y obtener los mismos resultados, siempre que tenga acceso a los datos y al código.</p></li>
+</ul></li>
+</ul>
+</div>
 </section>
 <section id="qué-es-quarto" class="slide level2">
 <h2>¿Qué es Quarto?</h2>
@@ -527,7 +567,7 @@
 <li><p>Requisitos: Quarto CLI y Visual Studio Code (VSC)</p></li>
 <li><p>Instalación de Quarto: <a href="https://quarto.org/docs/get-started/">https://quarto.org/docs/get-started/</a></p></li>
 <li><p>Verificación de instalación:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href=""></a><span class="ex">quarto</span> check</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href=""></a><span class="ex">quarto</span> check</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
 <li><p>Extensión “Quarto” para Visual Studio Code</p></li>
 </ul>
 </div><div class="column" style="width:40%;">
@@ -544,10 +584,10 @@
 <ul>
 <li><p>Archivo <code>.qmd</code></p></li>
 <li><p>Encabezado YAML:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb2-1"><a href=""></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"Mi documento"</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb2-1"><a href=""></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"Mi documento"</span></span>
 <span id="cb2-2"><a href=""></a><span class="fu">author</span><span class="kw">:</span><span class="at"> </span><span class="st">"Eugenio Chandía"</span></span>
 <span id="cb2-3"><a href=""></a><span class="fu">date</span><span class="kw">:</span><span class="at"> today</span></span>
-<span id="cb2-4"><a href=""></a><span class="fu">format</span><span class="kw">:</span><span class="at"> html</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<span id="cb2-4"><a href=""></a><span class="fu">format</span><span class="kw">:</span><span class="at"> html</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
 <li><p>Cuerpo:</p>
 <ul>
 <li>Markdown para secciones, énfasis, listas, etc.</li>
@@ -558,7 +598,7 @@
 </section>
 <section id="ejemplo" class="slide level2">
 <h2>Ejemplo</h2>
-<div class="sourceCode" id="annotated-cell-1"><pre class="sourceCode numberSource code-annotation-code number-lines code-with-copy"><code class="sourceCode"><span id="annotated-cell-1-1"><a href="#annotated-cell-1-1"></a>---</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="annotated-cell-1"><pre class="sourceCode numberSource code-annotation-code number-lines code-with-copy"><code class="sourceCode"><span id="annotated-cell-1-1"><a href="#annotated-cell-1-1"></a>---</span>
 <span id="annotated-cell-1-2"><a href="#annotated-cell-1-2"></a>title: "Tutorial Quarto"</span>
 <span id="annotated-cell-1-3"><a href="#annotated-cell-1-3"></a>author: "JC"</span>
 <span id="annotated-cell-1-4"><a href="#annotated-cell-1-4"></a>date: "2025-08-01"</span>
@@ -569,7 +609,7 @@
 <span id="annotated-cell-1-9"><a href="#annotated-cell-1-9"></a># Bienvenidos a este tutorial de **Quarto**.</span>
 <span id="annotated-cell-1-10"><a href="#annotated-cell-1-10"></a></span>
 <span id="annotated-cell-1-11"><a href="#annotated-cell-1-11"></a>Quarto está especialmente diseñado para elaborar documentos</span>
-<span id="annotated-cell-1-12"><a href="#annotated-cell-1-12"></a>científicos y técnicos reproducibles</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="annotated-cell-1-12"><a href="#annotated-cell-1-12"></a>científicos y técnicos reproducibles</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <ul>
 <li>Para renderizar:
 <ul>
@@ -583,16 +623,16 @@
 <ul>
 <li><p>Temas: <code>cosmo</code>, <code>flatly</code>, <code>lux</code>, <code>darkly</code>, etc.</p></li>
 <li><p>Opciones comunes en YAML:</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb3-1"><a href=""></a><span class="fu">toc</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb3-1"><a href=""></a><span class="fu">toc</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span>
 <span id="cb3-2"><a href=""></a><span class="fu">number-sections</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span>
-<span id="cb3-3"><a href=""></a><span class="fu">code-fold</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<span id="cb3-3"><a href=""></a><span class="fu">code-fold</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
 <li><p>Personalización con CSS externo:</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb4-1"><a href=""></a><span class="fu">css</span><span class="kw">:</span><span class="at"> estilos.css</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb4-1"><a href=""></a><span class="fu">css</span><span class="kw">:</span><span class="at"> estilos.css</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
 </ul>
 </section>
 <section id="ejemplo-1" class="slide level2">
 <h2>Ejemplo</h2>
-<div class="sourceCode" id="annotated-cell-2"><pre class="sourceCode numberSource code-annotation-code number-lines code-with-copy"><code class="sourceCode"><span id="annotated-cell-2-1"><a href="#annotated-cell-2-1"></a>---</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="annotated-cell-2"><pre class="sourceCode numberSource code-annotation-code number-lines code-with-copy"><code class="sourceCode"><span id="annotated-cell-2-1"><a href="#annotated-cell-2-1"></a>---</span>
 <span id="annotated-cell-2-2"><a href="#annotated-cell-2-2"></a>title: "Tutorial Quarto"</span>
 <span id="annotated-cell-2-3"><a href="#annotated-cell-2-3"></a>author: "JC"</span>
 <span id="annotated-cell-2-4"><a href="#annotated-cell-2-4"></a>date: "2025-08-01"</span>
@@ -625,14 +665,14 @@
 <span id="annotated-cell-2-31"><a href="#annotated-cell-2-31"></a></span>
 <span id="annotated-cell-2-32"><a href="#annotated-cell-2-32"></a>1. punto 1</span>
 <span id="annotated-cell-2-33"><a href="#annotated-cell-2-33"></a>2. punto 2</span>
-<span id="annotated-cell-2-34"><a href="#annotated-cell-2-34"></a>3. ...</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="annotated-cell-2-34"><a href="#annotated-cell-2-34"></a>3. ...</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="extensiones-1" class="slide level2">
 <h2>Extensiones</h2>
 <ul>
 <li>Integración con R -&gt; documento dinámico</li>
 <li>Referencias bibliográficas</li>
-<li>Renderizado a pdf, word y otros formatos de salida -&gt; Draft JUSMER</li>
+<li>Renderizado a pdf, word y otros formatos de salida</li>
 <li><a href="https://lisacoes.com/">Sitios web</a></li>
 <li><a href="https://ocs-coes.shinyapps.io/ocs-viselsoc/">Aplicaciones</a></li>
 <li>Presentaciones</li>
@@ -649,8 +689,16 @@
 <li><p>Permite controlar las versiones (Git)</p></li>
 <li><p>Facilita la difusión (GitHub Pages)</p></li>
 <li><p>Utiliza texto plano y todos los recursos de Quarto</p></li>
-<li><p>Permite combinar texto y código</p></li>
+<li><p>Permite combinar texto y código (mantiene la naturaleza de documento dinámico)</p></li>
+<li><p>Es compatible con otras herramientas de acceso abierto (Zotero)</p></li>
 </ul>
+</section>
+<section id="section-7" class="slide level2">
+<h2></h2>
+
+<img data-src="workshop2026_files/figure-revealjs/fig-ejemplo-1.png" width="960" class="r-stretch quarto-figure-center" id="fig-ejemplo"><p class="caption">
+Figure&nbsp;1: Gráfico de ejemplo con datos ficticios
+</p><p>La <a href="#/fig-ejemplo" class="quarto-xref">Figure&nbsp;1</a> respalda lo planteado en la literatura <span class="citation" data-cites="breznau_does_2021 healy_plain_2018 christensen_transparent_2019">(<a href="#/referencias" role="doc-biblioref" onclick="">Breznau, 2021</a>; <a href="#/referencias" role="doc-biblioref" onclick="">Christensen et al., 2019</a>; <a href="#/referencias" role="doc-biblioref" onclick="">Healy, 2018</a>)</span>.</p>
 </section>
 <section id="yaml" class="slide level2">
 <h2>YAML</h2>
@@ -662,7 +710,7 @@
 </section>
 <section id="ejemplo-2" class="slide level2">
 <h2>Ejemplo</h2>
-<div class="sourceCode" id="annotated-cell-3"><pre class="sourceCode numberSource code-annotation-code number-lines code-with-copy"><code class="sourceCode"><span id="annotated-cell-3-1"><a href="#annotated-cell-3-1"></a>---</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="annotated-cell-3"><pre class="sourceCode numberSource code-annotation-code number-lines code-with-copy"><code class="sourceCode"><span id="annotated-cell-3-1"><a href="#annotated-cell-3-1"></a>---</span>
 <span id="annotated-cell-3-2"><a href="#annotated-cell-3-2"></a>format:</span>
 <span id="annotated-cell-3-3"><a href="#annotated-cell-3-3"></a>  revealjs:</span>
 <span id="annotated-cell-3-4"><a href="#annotated-cell-3-4"></a>    theme: </span>
@@ -670,7 +718,7 @@
 <span id="annotated-cell-3-6"><a href="#annotated-cell-3-6"></a>    transition: slide</span>
 <span id="annotated-cell-3-7"><a href="#annotated-cell-3-7"></a>    transition-speed: slow</span>
 <span id="annotated-cell-3-8"><a href="#annotated-cell-3-8"></a>editor: source</span>
-<span id="annotated-cell-3-9"><a href="#annotated-cell-3-9"></a>---</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="annotated-cell-3-9"><a href="#annotated-cell-3-9"></a>---</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <aside class="notes">
 <p>Sacar la transición y renderizar la presentación sin ella</p>
 <style type="text/css">
@@ -792,24 +840,20 @@
 <li><p><a href="https://lisa-coes.netlify.app/">Página LISA</a> y más sobre Ciencia Abierta</p></li>
 </ul>
 </section></section>
-<section id="section-10" class="title-slide slide level1 white center" data-background-color="black">
-<h1></h1>
-<p><br></p>
+<section id="módulo-4---git-y-github" class="title-slide slide level1 white center" data-background-color="#a81014" style="font-size:30px; display:flex; align-items:left; justify-content:center; height:70vh; font-weight:700;">
+<h1>Módulo 4 - Git y GitHub</h1>
+<p><br> <br></p>
 <p align="right">
-<img src="images/datasoc.png" width="15%">
+<img src="images/datasoc_red1.png" width="15%">
 </p>
-<p><br> <br> <span style="font-size:60px; color:white; font-weight:bold;">Módulo 4: Git y Github</span></p>
-<br>
-<hr>
-<p>Juan Carlos Castillo</p>
 </section>
 
 <section>
-<section id="repositorios-y-apertura" class="title-slide slide level1 center" data-background-color="black">
+<section id="repositorios-y-apertura" class="title-slide slide level1 center" data-background-color="#a81014">
 <h1>Repositorios y apertura</h1>
 
 </section>
-<section id="section-11" class="slide level2" data-background-color="black">
+<section id="section-11" class="slide level2">
 <h2></h2>
 <h3 id="la-escritura-en-texto-simple-como-markdown-o-quarto-permite-implementar-un-sistema-de-control-de-versiones-además-de-herramientas-de-respaldo-colaboración-y-comunicación">La escritura en texto simple (como Markdown o Quarto) permite implementar un sistema de control de versiones, además de herramientas de respaldo, colaboración y comunicación</h3>
 </section>
@@ -840,24 +884,59 @@
 <li><p>entorno de trabajo que favorece la ciencia abierta</p></li>
 </ul>
 </section>
-<section id="section-12" class="slide level2" data-background-color="black">
+<section id="section-12" class="slide level2">
 <h2></h2>
 <h3 id="git-no-es-un-registro-de-versiones-de-archivos-específicos-sino-de-una-carpeta-completa"><span class="red">Git no es un registro de versiones de archivos específicos, sino de una carpeta completa</span></h3>
+<p><br></p>
 <h3 id="guarda-fotos-de-momentos-específicos-de-la-carpeta-y-esta-foto-se-saca-mediante-un-commit"><span class="red">Guarda <em>“fotos”</em> de momentos específicos de la carpeta, y esta foto se <em>saca</em> mediante un</span> <strong>commit</strong></h3>
 </section>
 <section id="section-13" class="slide level2">
 <h2></h2>
 
 <img data-src="images/gitflow.jpeg" class="r-stretch"></section>
-<section id="commits" class="slide level2">
-<h2>Commits</h2>
+<section id="manos-a-la-obra" class="slide level2">
+<h2>Manos a la obra</h2>
+<p>1- crear un repositorio local</p>
+<p>2- crear archivo / hacer cambios en archivo</p>
+<p>3- hacer un commit</p>
+<p>4- sincronizar con un repositorio remoto (Github)</p>
+<p>5- hacer cambios en el repositorio remoto (Github)</p>
+<p>6- sincronizar con el repositorio local</p>
+</section>
+<section id="crear-un-repositorio-local" class="slide level2">
+<h2>1. Crear un repositorio local</h2>
+<ul>
+<li>Generar carpeta a versionar - &gt; desde administrador de archivos
+<ul>
+<li>ej carpeta: “ejemplo-git”<br>
+</li>
+</ul></li>
+<li>En VSC: File &gt; Open Folder &gt; seleccionar carpeta</li>
+<li>inicializar la carpeta como repositorio de Git:
+<ul>
+<li>ir a ícono de control de versiones (barra lateral izquierda) <img data-src="images/git-icon.png" alt="icono control de versiones"></li>
+<li>Initialize Repository</li>
+</ul></li>
+</ul>
+</section>
+<section id="crear-archivo" class="slide level2">
+<h2>2. Crear archivo</h2>
+<ul>
+<li>ctrl + n o File &gt; New File</li>
+<li>guardar el archivo con ctrl + s</li>
+<li>guardar el archivo con un nombre específico (ej. “archivo-ejemplo.qmd”)</li>
+</ul>
+</section>
+<section id="hacer-un-commit" class="slide level2">
+<h2>3. Hacer un commit</h2>
 <ul>
 <li><p>El <strong>commit</strong> es el procedimiento fundamental del control de versiones</p></li>
 <li><p>Git no registra cualquier cambio que se “guarda”, sino los que se “comprometen” (commit).</p></li>
-<li><p>En un <strong>commit</strong></p>
+<li><p>Para hacer un commit:</p>
 <ul>
-<li>se seleccionan los archivos cuyo cambio se desea registrar (<em>stage</em>)</li>
-<li>se registra lo que se está comprometiendo en el cambio (mensaje de commit)</li>
+<li>ir a ícono de control de versiones (barra lateral izquierda) <img data-src="images/git-icon.png" alt="icono control de versiones"></li>
+<li>escribir un mensaje descriptivo del cambio realizado</li>
+<li>hacer click en el ícono de check para hacer el commit</li>
 </ul></li>
 </ul>
 </section>
@@ -872,32 +951,41 @@
 <li><p>no esperar muchos cambios distintos que puedan hacer perder el sentido del commit</p></li>
 </ul></li>
 </ul>
-</section></section>
-<section id="section-14" class="title-slide slide level1 center" data-background-color="grey">
-<h1></h1>
-<p><span style="font-size:60px; color:white; font-weight:bold;">Herramientas computacionales para la investigación social reproducible</span></p>
-<p><strong>Talleres de Formación Interna - CIAE, jueves 02 de octubre de 2025</strong></p>
-<hr>
-<div class="columns v-center-container">
-<div class="column" style="width:60%;">
-<p><img data-src="images/lisa.png" style="width:70.0%"></p>
-<p>Laboratorio de Investigación Social Abierta</p>
-<p>COES</p>
-<p><a href="https://lisacoes.com/">lisacoes.com</a></p>
-<div class="{=html}">
-<div style="display: inline-flex; align-items: center; gap: 6px; line-height: 1;">
-<p><img src="images/octocat.svg" alt="GitHub" style="width:36px; height:36px; vertical-align: middle;"> <a href="https://github.com/lisa-coes/taller-vsc-github/taller-ciae" target="_blank" style="vertical-align: middle; font-size: 1em;"> Repositorio de este taller </a></p>
-</div>
-</div>
-</div><div class="column" style="width:30%;">
-<p><strong>Juan Carlos Castillo</strong></p>
-<p><strong>Kevin Carrasco</strong></p>
-<p><strong>René Canales</strong></p>
-<p><strong>Katherine Aravena</strong></p>
-<p><strong>Tomás Urzúa</strong></p>
-</div></div>
 </section>
-
+<section id="sincronizar-con-un-repositorio-remoto-github" class="slide level2">
+<h2>4. Sincronizar con un repositorio remoto (Github)</h2>
+<ul>
+<li>crear cuenta en Github</li>
+<li>publicar el repositorio local en Github:
+<ul>
+<li>ir a ícono de control de versiones (barra lateral izquierda) <img data-src="images/git-icon.png" alt="icono control de versiones"></li>
+<li>Publish Branch</li>
+<li>elegir nombre del repositorio remoto (ej. “ejemplo-git”)</li>
+<li>hacer click en “Publish Branch” (privado o público)</li>
+<li>Open on Github para ver el repositorio remoto</li>
+</ul></li>
+</ul>
+</section>
+<section id="hacer-cambios-en-el-repositorio-remoto-github" class="slide level2">
+<h2>5. Hacer cambios en el repositorio remoto (Github)</h2>
+<ul>
+<li>ir al repositorio remoto en Github</li>
+<li>hacer click en el archivo que se desea modificar</li>
+<li>hacer click en el ícono de lápiz para editar el archivo</li>
+<li>hacer cambios en el archivo</li>
+<li>escribir un mensaje descriptivo del cambio realizado</li>
+<li>hacer click en “Commit changes”</li>
+<li>hacer click en “Commit directly to the main branch”</li>
+</ul>
+</section>
+<section id="sincronizar-con-el-repositorio-local" class="slide level2">
+<h2>6. Sincronizar con el repositorio local</h2>
+<ul>
+<li>ir a VSC</li>
+<li>ir a ícono de control de versiones (barra lateral izquierda) <img data-src="images/git-icon.png" alt="icono control de versiones"></li>
+<li>hacer click en “Sync changes” para traer los cambios del repositorio remoto al local (pull) y enviar los cambios del repositorio local al remoto (push)</li>
+</ul>
+</section></section>
 <section>
 <section id="módulo-5---automatización-de-referencias-con-zotero" class="title-slide slide level1 white center" data-background-color="#a81014" style="font-size:30px; display:flex; align-items:left; justify-content:center; height:70vh; font-weight:700;">
 <h1>Módulo 5 - Automatización de referencias con Zotero</h1>
@@ -959,7 +1047,7 @@ Cuando hay una referencia presente en la página, presiona el botón del conecto
 <p><img data-src="images/conector.png" style="width:100.0%"></p>
 </div></div>
 </section>
-<section id="section-15" class="slide level2">
+<section id="section-14" class="slide level2">
 <h2></h2>
 <div class="columns">
 <div class="column" style="width:50%;">
@@ -968,7 +1056,7 @@ Cuando hay una referencia presente en la página, presiona el botón del conecto
 <p><img data-src="images/zotero-doi.png" style="width:100.0%"></p>
 </div></div>
 </section>
-<section id="section-16" class="slide level2">
+<section id="section-15" class="slide level2">
 <h2></h2>
 <div class="columns">
 <div class="column" style="width:50%;">
@@ -1092,11 +1180,11 @@ Cuando hay una referencia presente en la página, presiona el botón del conecto
 </ul></li>
 </ul>
 </section>
-<section id="section-17" class="slide level2">
+<section id="section-16" class="slide level2">
 <h2></h2>
 
 <img data-src="images/zotero-plugin.png" class="r-stretch"></section>
-<section id="section-18" class="slide level2">
+<section id="section-17" class="slide level2">
 <h2></h2>
 
 <img data-src="images/zotero-set.png" class="r-stretch"></section>
@@ -1110,7 +1198,7 @@ Cuando hay una referencia presente en la página, presiona el botón del conecto
 <li><p>Precaución: no carácteres especiales ni espacios en el nombre del archivo .bib</p></li>
 </ul>
 </section>
-<section id="section-19" class="slide level2">
+<section id="section-18" class="slide level2">
 <h2></h2>
 
 <img data-src="images/exportbibtex.gif" class="r-stretch"></section>
@@ -1135,7 +1223,21 @@ csl: apa.csl
 
  Y aquí comienza el documento ...
 </code></pre>
+</section>
+<section id="referencias" class="slide level2 smaller scrollable">
+<h2>Referencias</h2>
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-breznau_does_2021" class="csl-entry" role="listitem">
+Breznau, N. (2021). Does <span>Sociology Need Open Science</span>? <em>Societies</em>, <em>11</em>(1), 9. <a href="https://doi.org/10.3390/soc11010009">https://doi.org/10.3390/soc11010009</a>
+</div>
+<div id="ref-christensen_transparent_2019" class="csl-entry" role="listitem">
+Christensen, G. S., Freese, J., &amp; Miguel, E. (2019). <em>Transparent and reproducible social science research: How to do open science</em>. University of California Press.
+</div>
+<div id="ref-healy_plain_2018" class="csl-entry" role="listitem">
+Healy, K. (2018). <em>The <span>Plain Person</span>’s <span>Guide</span> to <span>Plain Text Social Science</span></em>.
+</div>
+</div>
 </section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
@@ -1326,7 +1428,7 @@ csl: apa.csl
         margin: 0.1,
 
         math: {
-          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
           config: 'TeX-AMS_HTML-full',
           tex2jax: {
             inlineMath: [['\\(','\\)']],
@@ -1352,6 +1454,44 @@ csl: apa.csl
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
       window.document.addEventListener("DOMContentLoaded", function (event) {
         const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
@@ -1400,13 +1540,14 @@ csl: apa.csl
           e.clearSelection();
         }
         const getTextToCopy = function(trigger) {
-            const codeEl = trigger.previousElementSibling.cloneNode(true);
-            for (const childEl of codeEl.children) {
-              if (isCodeAnnotation(childEl)) {
-                childEl.remove();
-              }
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
             }
-            return codeEl.innerText;
+          }
+          return codeEl.innerText;
         }
         const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
           text: getTextToCopy
