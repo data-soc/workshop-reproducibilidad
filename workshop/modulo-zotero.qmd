@@ -249,4 +249,32 @@ csl: apa.csl
 
 ```
 
+## Resumen
+
+En este curso aprendimos:
+
+:::{.incremental style="font-size:38px;"}
+
+- Principios de la ciencia abierta, especialmente sobre reproducibilidad en investigación social.
+
+- Uso de Visual Studio Code como editor de texto
+
+- Texto plano para la escritura de documentos científicos
+
+- Quarto como herramienta para producir documentos dinámicos
+
+- Git y GitHub para control de versiones, trabajo colaborativo y difusión de resultados
+  
+- Zotero para gestión de referencias bibliográficas (pendiente)
+
+:::
+
+## Retroalimentación
+
+- ¿Qué les pareció el taller? ¿Consideran que las herramientas vistas pueden ser útiles para sus proyectos de investigación?
+
+- ¿Qué elementos creen que podrían mejorarse?
+
+- ¿Qué otros conocimientos les gustaría abordar?
+
 ## Referencias

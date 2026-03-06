@@ -85,7 +85,8 @@ editor: source
 
 ## Referencia clave
 
-![](images/healy.png)
+[![](images/healy.png){width="40%"}](https://plain-text.co/)
+
 
 ## Base de escritura: Markdown
 
@@ -275,6 +276,6 @@ editor: source
 - Integración con R -> documento dinámico
 - Referencias bibliográficas
 - Renderizado a pdf, word y otros formatos de salida
-- [Sitios web](https://lisacoes.com/)
-- [Aplicaciones](https://ocs-coes.shinyapps.io/ocs-viselsoc/)
-- Presentaciones
+  - [Sitios web](https://lisacoes.com/)
+  - [Aplicaciones](https://ocs-coes.shinyapps.io/ocs-viselsoc/)
+  - Presentaciones
