@@ -28,15 +28,37 @@ La ciencia abierta es el conjunto de prácticas, políticas e infraestructuras q
 
 <small>UNESCO (2021). Recommendation on Open Science. UNESCO, París. https://unesdoc.unesco.org/ark:/48223/pf0000379949</small>
 
+##
+
+::: {.columns .v-center-container}
+::: {.column width="40%"}
+
+![](images/logo-lisa.png)
+
+
+:::
+::: {.column width="60%"}
+
+El [Laboratorio de Investigación Social Abierta (LISA)]{.red} tiene por objetivo ofrecer herramientas y orientaciones para la apertura científica de las distintas etapas de los proyectos de investigación en ciencias sociales.
+
+:::
+:::
+
+</br>
+
+::: {style="display:flex; justify-content:center; align-items:center; margin:12px 0;"}
+[https://lisacoes.com/](https://lisacoes.com/){target="_blank" .content-box-red style="padding:10px 16px; border-radius:6px; background:#a81014; color:#ffffff; font-weight:600; text-decoration:none;"}
+:::
+
+## Flujo de investigación
+
+![](images/flujo-herramientas.png)
 
 
 ## Reproducibilidad
 
 ![](images/reproducible-replicable-robust-generalisable.jpg){fig-align="center"}
 
-## Flujo de investigación
-
-![](images/flujo-herramientas.png)
 
 
 ## Reproducibilidad

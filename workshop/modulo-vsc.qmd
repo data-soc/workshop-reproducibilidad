@@ -22,7 +22,7 @@ editor: source
 ## Objetivo {.align-top}
 
 ::: {.objective-card .font-size-2em}
-El objetivo de este módulo es conocer y entender el funcionamiento de la _interfaz_ de VSCode y ejecutar un **mini flujo** de trabajo con carpetas, archivos, terminal y atajos.
+El objetivo de este módulo es conocer y entender el funcionamiento de la _interfaz_ de VSCode, aprender a configurarlo y personalizarlo mediante extensiones.
 :::
 
 ## Editores de texto {.align-top}
@@ -74,9 +74,9 @@ El objetivo de este módulo es conocer y entender el funcionamiento de la _inter
 
 ::: {.incremental}
 
-- VS Code trabaja con **carpetas** como **áreas de trabajo**.
+- VSCode trabaja con **carpetas** como **áreas de trabajo**.
 - Cada carpeta puede contener múltiples archivos y subcarpetas.
-- Puedes abrir una carpeta existente o crear una nueva desde VS Code.
+- Se puede abrir una carpeta existente o crear una nueva desde VSCode.
 - Los archivos pueden ser de cualquier tipo: código fuente, texto plano, datos, etc.
 - La estructura de carpetas y archivos es clave para la organización y reproducibilidad (ej: protocolo [IPO](https://lisacoes.com/protocolos/a-ipo-rep/)).
 :::
@@ -84,9 +84,9 @@ El objetivo de este módulo es conocer y entender el funcionamiento de la _inter
 ## ![](images/extensiones.png) Extensiones
 
 :::{.incremental}
-- Las extensiones son **complementos** que agregan funcionalidades a VS Code.
+- Las extensiones son **complementos** que agregan funcionalidades a VSCode.
 - Existen extensiones para diferentes lenguajes de programación, herramientas y flujos de trabajo.
-- Puedes buscar e instalar extensiones desde el **Marketplace** de VS Code.
+- Buscar e instalar extensiones: desde el **Marketplace** de VSCode.
 :::
 
 ## Instalación de extensiones {.align-top}
