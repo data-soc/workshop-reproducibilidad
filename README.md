@@ -38,9 +38,9 @@ Introducir el uso de herramientas computacionales (VSC, Git/GitHub, Quarto, Zote
 - 6.2 Git y Github en VSC
 - 6.3 Proceso de publicación en plataformas abiertas con GitHub Pages
 
-5. **Acercamiento a Zotero**
+5. **Zotero en texto plano / Quarto**
 - 7.1 Utilidades de bibliotecas compartidas
-- 7.2 Automatización de referencias bibliográficas
+- 7.2 Automatización de referencias bibliográficas en Quarto con Zotero y BetterBibTeX
 
 ## Metodología 
 
