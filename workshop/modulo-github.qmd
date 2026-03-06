@@ -69,6 +69,22 @@ editor: source
 
 ![](images/gitflow.jpeg)
 
+
+## Antes de comenzar:
+
+- crear una cuenta en github.com
+
+- inicializar git local:
+
+  - abrir terminal: icono superior derecho ![](images/terminal.png) 
+
+        git config --global user.name "Your Name"
+        
+        git config --global user.email "you@example.com"
+
+  
+
+
 ## Manos a la obra
 
 1- crear un repositorio local
