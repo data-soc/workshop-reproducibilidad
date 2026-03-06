@@ -69,15 +69,45 @@ editor: source
 
 ![](images/gitflow.jpeg)
 
-## Commits
+## Manos a la obra
+
+1- crear un repositorio local
+
+2- crear archivo / hacer cambios en archivo
+
+3- hacer un commit
+
+4- sincronizar con un repositorio remoto (Github)
+
+5- hacer cambios en el repositorio remoto (Github)
+
+6- sincronizar con el repositorio local
+
+## 1. Crear un repositorio local
+
+- Generar carpeta a versionar - > desde administrador de archivos
+  - ej carpeta: "ejemplo-git"  
+- En VSC: File > Open Folder > seleccionar carpeta
+- inicializar la carpeta como repositorio de Git: 
+  - ir a ícono de control de versiones (barra lateral izquierda) ![icono control de versiones](images/git-icon.png)
+  - Initialize Repository
+  
+## 2. Crear archivo
+
+- ctrl + n o File > New File
+- guardar el archivo con ctrl + s 
+- guardar el archivo con un nombre específico (ej. "archivo-ejemplo.qmd") 
+
+## 3. Hacer un commit
 
 - El **commit** es el procedimiento fundamental del control de versiones
 
 - Git no registra cualquier cambio que se "guarda", sino los que se "comprometen" (commit).
 
-- En un **commit**
-  - se seleccionan los archivos cuyo cambio se desea registrar (*stage*)
-  - se registra lo que se está comprometiendo en el cambio (mensaje de commit)
+- Para hacer un commit:
+  - ir a ícono de control de versiones (barra lateral izquierda) ![icono control de versiones](images/git-icon.png)
+  - escribir un mensaje descriptivo del cambio realizado
+  - hacer click en el ícono de check para hacer el commit 
 
 ## ¿Cuándo hacer un commit?
 
@@ -90,5 +120,32 @@ editor: source
   - no para cambios menores
   
   - no esperar muchos cambios distintos que puedan hacer perder el sentido del commit
+
+## 4. Sincronizar con un repositorio remoto (Github)
+
+- crear cuenta en Github
+- publicar el repositorio local en Github:
+  - ir a ícono de control de versiones (barra lateral izquierda) ![icono control de versiones](images/git-icon.png)
+  - Publish Branch
+  - elegir nombre del repositorio remoto (ej. "ejemplo-git")
+  - hacer click en "Publish Branch" (privado o público)
+  - Open on Github para ver el repositorio remoto
+
+## 5. Hacer cambios en el repositorio remoto (Github)
+
+- ir al repositorio remoto en Github
+- hacer click en el archivo que se desea modificar
+- hacer click en el ícono de lápiz para editar el archivo
+- hacer cambios en el archivo
+- escribir un mensaje descriptivo del cambio realizado
+- hacer click en "Commit changes"
+- hacer click en "Commit directly to the main branch"
+
+## 6. Sincronizar con el repositorio local
+
+- ir a VSC
+- ir a ícono de control de versiones (barra lateral izquierda) ![icono control de versiones](images/git-icon.png)
+- hacer click en "Sync changes" para traer los cambios del repositorio remoto al local (pull) y enviar los cambios del repositorio local al remoto (push)
+
 
 
