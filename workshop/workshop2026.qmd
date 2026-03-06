@@ -109,25 +109,22 @@ Introducir el uso de herramientas computacionales (VSC, Git/GitHub, Quarto, Zote
 - 2.1 Reconocimiento del entorno de trabajo
 - 2.2  Recomendaciones en VSC: Acciones, extensiones y shortcuts
 
-3. **Escritura en Markdown** 
+3. **Texto plano, markdown y Quarto** 
 - 3.1 Fundamentos del texto plano 
 - 3.2 Utilidades de Markdown: texto y código unificado
+- 3.3 Introducción a los documentos dinámicos
+- 3.4 Formatos de salida de Quarto
+- 3.5 Estructura básica de presentaciones con Quarto
+- 3.6 Estilización de presentaciones
 
-4. **Quarto: documentos dinámicos**
-- 4.1 Introducción a los documentos dinámicos
-- 4.2 Formatos de salida de Quarto
+4. **Git y Github**
+- 6.1 Lógica de versionamiento en Git
+- 6.2 Git y Github en VSC
+- 6.3 Proceso de publicación en plataformas abiertas con GitHub Pages
 
-5. **Presentaciones en Quarto**
-- 5.1 Estructura básica de presentaciones con Markdown
-- 5.2 Estilización de presentaciones
-
-6. **Reproducibilidad en trabajos colaborativos**
-- 6.1 Uso y ventajas de Git y GitHub
-- 6.2 Proceso de publicación en plataformas abiertas con GitHub Pages
-
-7. **Acercamiento a Zotero**
+5. **Zotero en texto plano / Quarto**
 - 7.1 Utilidades de bibliotecas compartidas
-- 7.2 Automatización de referencias bibliográficas
+- 7.2 Automatización de referencias bibliográficas en Quarto con Zotero y BetterBibTeX
 
 :::
 
