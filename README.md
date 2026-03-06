@@ -33,11 +33,12 @@ Introducir el uso de herramientas computacionales (VSC, Git/GitHub, Quarto, Zote
 - 3.5 Estructura básica de presentaciones con Quarto
 - 3.6 Estilización de presentaciones
 
-6. **Reproducibilidad en trabajos colaborativos**
-- 6.1 Uso y ventajas de Git y GitHub
-- 6.2 Proceso de publicación en plataformas abiertas con GitHub Pages
+4. **Git y Github**
+- 6.1 Lógica de versionamiento en Git
+- 6.2 Git y Github en VSC
+- 6.3 Proceso de publicación en plataformas abiertas con GitHub Pages
 
-7. **Acercamiento a Zotero**
+5. **Acercamiento a Zotero**
 - 7.1 Utilidades de bibliotecas compartidas
 - 7.2 Automatización de referencias bibliográficas
 
